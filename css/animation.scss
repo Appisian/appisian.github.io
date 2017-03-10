@@ -1,0 +1,162 @@
+@mixin addTransition($to, $duration, $easing){
+  -webkit-transition: $to $duration $easing;
+  -moz-transition: $to $duration $easing;
+  -ms-transition: $to $duration $easing;
+  -o-transition: $to $duration $easing;
+  transition: $to $duration $easing;
+}
+
+$main_color: white;
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  background-image: url("../img/background_mountains.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+// Launcher
+.launch {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  animation-fill-mode: forwards;
+
+  .title {
+    margin-top: 0;
+  }
+
+  .button_launch, .button_read {
+    @include addTransition(all, 300ms, ease-out);
+  }
+}
+
+// Filter
+.filter {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+// Sitography
+.sitography_btn {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+// Main
+.main {
+  display: none;
+
+  .date_wrapper {
+    pointer-events: none;
+    position: fixed;
+    z-index: 99;
+    color: $main_color;
+    width: 100%;
+    height:100%;
+    display: none;
+    opacity: 0;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, .2) 0%, transparent 50%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, .2) 0%, transparent 50%);
+
+
+    .date_box {
+      min-height: 194px;
+      min-width:302px;
+      overflow: hidden;
+
+      span {
+        display: block;
+        margin: 10px auto;
+        font-family: Oswald;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        text-align: center;
+      }
+
+
+      .month {
+        font: {
+          size: 60px;
+          weight: bold;
+        }
+        text-transform: capitalize;
+      }
+
+      .year {
+        font-size: 40px;
+      }
+    }
+
+  }
+
+
+  // SVG
+
+  #Calque_5 {
+    opacity: 1;
+    transform: scale(.6) translateY(100%);
+    animation-name: fadeInScale;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.38,.76,.62,.92);
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+  }
+}
+
+.article {
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  .title_article {
+    margin-bottom: 20px !important;
+  }
+
+  .date_article {
+    margin-top: 10px !important;
+    font-size: 20px !important;
+    color: #696969;
+  }
+
+  .content_article {
+    font-size: 14px !important;
+  }
+
+}
+
+
+
+
+
+// Animation keyframes
+@-webkit-keyframes fadeInScale {
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+@-moz-keyframes fadeInScale {
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+@-o-keyframes fadeInScale {
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+@keyframes fadeInScale {
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}

@@ -1,0 +1,124 @@
+html {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  background-image: url("../img/background_mountains.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.launch {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  .launch .title {
+    margin-top: 0; }
+  .launch .button_launch, .launch .button_read {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
+
+.filter {
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.sitography_btn {
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.main {
+  display: none; }
+  .main .date_wrapper {
+    pointer-events: none;
+    position: fixed;
+    z-index: 99;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    display: -webkit-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.2) 0%, transparent 50%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.2) 0%, transparent 50%); }
+    .main .date_wrapper .date_box {
+      min-height: 194px;
+      min-width: 302px;
+      overflow: hidden; }
+      .main .date_wrapper .date_box span {
+        display: block;
+        margin: 10px auto;
+        font-family: Oswald;
+        opacity: 0;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        text-align: center; }
+      .main .date_wrapper .date_box .month {
+        font-size: 60px;
+        font-weight: bold;
+        text-transform: capitalize; }
+      .main .date_wrapper .date_box .year {
+        font-size: 40px; }
+  .main #Calque_5 {
+    opacity: 1;
+    -webkit-transform: scale(0.6) translateY(100%);
+    -ms-transform: scale(0.6) translateY(100%);
+    transform: scale(0.6) translateY(100%);
+    -webkit-animation-name: fadeInScale;
+    animation-name: fadeInScale;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: cubic-bezier(0.38, 0.76, 0.62, 0.92);
+    animation-timing-function: cubic-bezier(0.38, 0.76, 0.62, 0.92);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused; }
+
+.article {
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  .article .title_article {
+    margin-bottom: 20px !important; }
+  .article .date_article {
+    margin-top: 10px !important;
+    font-size: 20px !important;
+    color: #696969; }
+  .article .content_article {
+    font-size: 14px !important; }
+
+@-webkit-keyframes fadeInScale {
+  100% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0); } }
+
+@-moz-keyframes fadeInScale {
+  100% {
+    transform: scale(1) translateY(0); } }
+
+@-o-keyframes fadeInScale {
+  100% {
+    transform: scale(1) translateY(0); } }
+
+@keyframes fadeInScale {
+  100% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0); } }
