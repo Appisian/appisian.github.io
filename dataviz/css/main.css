@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'Futura Condensed';
+  src: url('../assets/font/FuturaCondensedRegular.woff') format('woff')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    font-size: 25px;
+    font-family: 'Futura Condensed';
+    text-transform: uppercase;
+    
+}
+
+.chart-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../assets/images/background_6.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+svg > g:first-child path {
+    cursor: pointer;
+}
+
+circle {
+    cursor: pointer;
+}
+
+/*
+svg > g:first-child path:hover {
+  fill: #fff;
+}
+*/
+
+text {
+  font-size: .8em;
+  letter-spacing: .5px;
+}
+
+.noFill {
+    font-size: 90px;
+    display: block;
+    color: #17000A !important;
+}
+
+polyline {
+    fill: none;
+}
+
+/* --- Helper --- */
+#help-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    cursor: pointer;
+}
+
+.help-content {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+#help-wrapper img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+/* --- Main title --- */
+.title-wrapper {
+    position: absolute;
+    z-index: 99;
+    color: #1AFFD3;
+    top: 40px;
+    left: 50px;
+    font-size: 30px;
+}
+
+text.noFillText {
+    fill: #17000A !important;
+}
+
+/* --- Beer image --- */
+.img-beer {
+    transform-origin: center center;
+    transform-style: preserve-3D;
+}
+
+.backClass {
+    transform: scale(1, 1);
+    transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -ms-transition: .2s all ease-out;
+}
+
+.backClass:hover {
+    transform: scale(1.3, 1.3);
+    transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -ms-transition: .2s all ease-out;
+}
+
+/* --- homepage --- */
+.hp-wrapper {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/background_6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 80px;
+    color: white;
+    text-align: left;
+}
+
+.hp-wrapper > div:first-child {
+    display: inline-block;
+    text-align: right;
+    margin: 5% 0 0 5%;
+}
+
+.hp-wrapper span {
+    font-size: 160px;
+    display: block;
+    color: black;
+    text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+}
+
+.main_launcher {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    z-index: -1;
+}
+
+.cercle_wrapper {
+    position: relative;
+    transition: .4s all ease-out;
+    -moz-transition: .4s all ease-out;
+    -webkit-transition: .4s all ease-out;
+    -o-transition: .4s all ease-out;
+    cursor: pointer;
+}
+
+.cercle_wrapper:hover {
+    transform: scale(1.3, 1.3);
+    transition: .4s all ease-out;
+    -moz-transition: .4s all ease-out;
+    -webkit-transition: .4s all ease-out;
+    -o-transition: .4s all ease-out;
+}
+
+.cercle_wrapper:hover img {
+    opacity: 0;
+    transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+}
+
+.cercle_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1AFFD3;
+    opacity: 0.3;
+}
+
+.cercle_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1AFFD3;
+    opacity: 0.6;
+}
+
+.cercle_3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1AFFD3;
+}
+
+.image_cercle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    width: 35px;
+    display: block;
+    opacity: 1;
+    transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+}
