@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+	<head>		
+		<title id="pagetitle">Audio Visualizer</title>
+        <meta charset="utf-8" />
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		
+	</head>
+	
+	<body>
+        <p class="volume-wrapper">
+            <input class="volumeBar" type="range" min="0" max="1" value="1" step="0.1" />
+            Volume : <span class="currentVolume"></span>
+        </p>
+		<canvas id="canvas"></canvas>
+
+        <script type="text/javascript" src="js/gl-matrix-min.js"></script>
+        <script type="text/javascript" src="classes/reversedBarClass.js"></script>
+        <script type="text/javascript" src="classes/barClass.js"></script>
+        <script type="text/javascript" src="classes/shockwaveClass.js"></script>
+        <script type="text/javascript" src="classes/particlesClass.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        
+        
+        
+	</body>
+	
+</html>
