@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:400,600,700");
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.7; }
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+  font: inherit; }
+
+li {
+  list-style: none; }
+
+h1, h2, h3 {
+  font-family: Raleway;
+  font-weight: 600;
+  color: #273444;
+  padding-bottom: 15px; }
+
+h3 {
+  font-size: 34px; }
+
+.display-flex, header nav#nav, header nav#nav ul, #home-section .wrapper, #works-section .wrapper, #projects-home .wrapper .project {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex; }
+
+.space-between, header nav#nav, header nav#nav ul, #home-section .wrapper {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-justify-content: space-between; }
+
+.space-around, #works-section .wrapper, #projects-home .wrapper .project {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-justify-content: space-around; }
+
+.align-items, header nav#nav, #home-section .wrapper {
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: center; }
+
+.center_h, #works-section .wrapper .work figure img {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.wrapper {
+  max-width: 1300px;
+  padding: 0 10px; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  text-transform: uppercase;
+  background-color: #fff; }
+  header.borderBottom {
+    border-bottom: 1px solid rgba(29, 29, 29, 0.18); }
+  header nav#nav {
+    height: 100px;
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto; }
+    header nav#nav ul {
+      width: 300px;
+      color: #5C6773; }
+      header nav#nav ul li:last-child a {
+        color: #fff;
+        background-color: #369EFB;
+        border-radius: 100px;
+        padding: 10px 25px; }
+      header nav#nav ul li {
+        font-size: 12px;
+        font-family: Raleway;
+        font-weight: 600; }
+
+.square {
+  position: fixed;
+  z-index: 99;
+  pointer-events: none; }
+
+#home-section {
+  position: relative;
+  width: 100%; }
+  #home-section .wrapper {
+    padding: 0;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0 auto; }
+    #home-section .wrapper .intro {
+      max-width: 400px;
+      margin-left: 5%;
+      color: #4E5067;
+      font-size: 18px;
+      z-index: -1; }
+    #home-section .wrapper .new_work {
+      height: 70%;
+      width: 50%;
+      background-color: #369EFB;
+      box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4); }
+      #home-section .wrapper .new_work figure {
+        height: 100%;
+        max-width: 400px;
+        width: 100%;
+        overflow: hidden; }
+
+#works-section {
+  background-color: #F2F3F6;
+  position: relative;
+  padding: 50px 0; }
+  #works-section .wrapper {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    #works-section .wrapper .work {
+      height: 525px;
+      width: 373px;
+      position: relative;
+      overflow: hidden;
+      background-color: #fff;
+      margin-bottom: 50px; }
+      #works-section .wrapper .work figure {
+        height: 385px;
+        width: 100%;
+        overflow: hidden;
+        position: relative; }
+        #works-section .wrapper .work figure img {
+          -webkit-transform-origin: center center;
+          -ms-transform-origin: center center;
+          transform-origin: center center;
+          position: absolute;
+          min-width: 100%;
+          min-height: 100%; }
+      #works-section .wrapper .work > p {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        bottom: -70px;
+        background-color: #fff;
+        padding: 30px 15px;
+        box-sizing: border-box;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
+        #works-section .wrapper .work > p .work_cat {
+          color: #5C6773;
+          font-size: 12px;
+          display: block;
+          font-family: Raleway;
+          font-weight: 600;
+          text-transform: uppercase; }
+        #works-section .wrapper .work > p .work_title {
+          font-weight: 600;
+          font-size: 27px;
+          color: #273444;
+          text-transform: capitalize;
+          display: block; }
+        #works-section .wrapper .work > p .description_work {
+          display: block;
+          margin-top: 20px;
+          opacity: 0;
+          color: #4E5067;
+          -webkit-transition: all 300ms ease-out;
+          -moz-transition: all 300ms ease-out;
+          -ms-transition: all 300ms ease-out;
+          -o-transition: all 300ms ease-out;
+          transition: all 300ms ease-out; }
+      #works-section .wrapper .work:hover p {
+        bottom: 0; }
+        #works-section .wrapper .work:hover p .description_work {
+          opacity: 1; }
+
+#projects-home {
+  margin-top: 100px; }
+  #projects-home .wrapper {
+    margin: 0 auto; }
+    #projects-home .wrapper .project:nth-child(2n+1) {
+      direction: rtl; }
+    #projects-home .wrapper .project {
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      margin-bottom: 200px; }
+      #projects-home .wrapper .project figure {
+        width: 40%;
+        max-height: 400px;
+        overflow: hidden; }
+        #projects-home .wrapper .project figure img {
+          display: block;
+          margin: 0 auto;
+          width: 100%; }
+      #projects-home .wrapper .project .description_content {
+        direction: ltr;
+        width: 40%;
+        display: block; }
+        #projects-home .wrapper .project .description_content .description_title {
+          display: block;
+          font-size: 24px;
+          font-family: Raleway;
+          font-weight: 600;
+          text-transform: capitalize;
+          color: #273444; }
