@@ -131,10 +131,12 @@
     width: 100%; }
   .wrapper table#footer_content .mediaship {
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 12px; }
     .wrapper table#footer_content .mediaship td {
       display: block;
-      margin: 25px 0; }
+      margin: 25px 0;
+      font-size: 12px; }
   .wrapper table#footer_content .img_mediaship td {
     text-align: center; }
   .wrapper table#footer_content .img_mediaship img {
