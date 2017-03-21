@@ -132,6 +132,7 @@
     text-align: center;
     text-transform: uppercase; }
     .wrapper table#footer_content .mediaship td {
+      font-size: 12px;
       display: block;
       margin: 25px 0; }
   .wrapper table#footer_content .img_mediaship td {
