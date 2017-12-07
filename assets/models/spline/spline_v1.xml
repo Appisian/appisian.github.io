@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<noi:DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:noi="NOISchema.xsd">
+<noi:VERSION info_1="2005" info_2="2005.0" info_3="" />
+<noi:MODEL_SECTION>
+<noi:BASIS_LINE3D>
+<noi:UUID drawingId="00000000-0000-0000-0000-000000000000" elementId="0" />
+<noi:NAMED_UUID name="spline movment" /><noi:GEOMETRY>
+<noi:GEO_POLYHEDRON3D orientation="e_POSITIVE" dimension="e_HAS_EDGES">
+<noi:GEO_POINT_LIST_3D>
+<noi:GEO_POINT x="3936.205" y="73652.361" z="43702.652" />
+<noi:GEO_POINT x="2398.799" y="66061.212" z="43877.277" />
+<noi:GEO_POINT x="1357.984" y="57440.336" z="44051.07" />
+<noi:GEO_POINT x="1156.712" y="50679.94" z="44165.974" />
+<noi:GEO_POINT x="1471.074" y="45848.26" z="44232.163" />
+<noi:GEO_POINT x="2081.336" y="42139.67" z="44270.136" />
+<noi:GEO_POINT x="2785.021" y="39518.99" z="44287.496" />
+<noi:GEO_POINT x="3725.772" y="37085.621" z="44293.624" />
+<noi:GEO_POINT x="4071.679" y="36307.068" z="44245.862" />
+<noi:GEO_POINT x="4398.206" y="35521.776" z="44105.157" />
+<noi:GEO_POINT x="4705.702" y="34730.44" z="43875.383" />
+<noi:GEO_POINT x="4994.522" y="33933.753" z="43560.412" />
+<noi:GEO_POINT x="5517.541" y="32327.101" z="42690.369" />
+<noi:GEO_POINT x="5970.08" y="30707.368" z="41526.008" />
+<noi:GEO_POINT x="6354.958" y="29080.104" z="40098.311" />
+<noi:GEO_POINT x="6811.576" y="26637.227" z="37530.78" />
+<noi:GEO_POINT x="7209.894" y="23405.491" z="33474.881" />
+<noi:GEO_POINT x="7402.091" y="18702.561" z="26539.061" />
+<noi:GEO_POINT x="6721.931" y="10985.419" z="13702.696" />
+<noi:GEO_POINT x="5925.504" y="7540.863" z="8149.393" />
+<noi:GEO_POINT x="5446.387" y="6083.458" z="6104.662" />
+<noi:GEO_POINT x="5103.47" y="5222.674" z="5083.588" />
+<noi:GEO_POINT x="4745.038" y="4457.018" z="4372.321" />
+<noi:GEO_POINT x="4560.885" y="4111.597" z="4142.547" />
+<noi:GEO_POINT x="4373.909" y="3792.04" z="4001.843" />
+<noi:GEO_POINT x="4184.465" y="3499.039" z="3954.081" />
+<noi:GEO_POINT x="3613.771" y="2697.089" z="3992.926" />
+<noi:GEO_POINT x="3041.085" y="1964.956" z="4102.99" />
+<noi:GEO_POINT x="2460.443" y="1297.798" z="4274.559" />
+<noi:GEO_POINT x="1663.567" y="500.955" z="4582.209" />
+<noi:GEO_POINT x="827.803" y="-200.469" z="4958.918" />
+<noi:GEO_POINT x="-60.99" y="-817.952" z="5381.667" />
+<noi:GEO_POINT x="-1268.091" y="-1489.255" z="5939.777" />
+<noi:GEO_POINT x="-2607.757" y="-2069.761" z="6488.895" />
+<noi:GEO_POINT x="-4107.604" y="-2581.892" z="6984.06" />
+<noi:GEO_POINT x="-5795.247" y="-3048.071" z="7380.312" />
+<noi:GEO_POINT x="-7299.132" y="-3402.995" z="7595.883" />
+<noi:GEO_POINT x="-9394.4" y="-3842.963" z="7700.791" />
+<noi:GEO_POINT x="-10221.679" y="-4079.32" z="7697.55" />
+<noi:GEO_POINT x="-10590.973" y="-4239.108" z="7693.598" />
+<noi:GEO_POINT x="-10932.624" y="-4424.621" z="7688.181" />
+<noi:GEO_POINT x="-11248.074" y="-4634.351" z="7681.365" />
+<noi:GEO_POINT x="-11806.137" y="-5120.417" z="7663.805" />
+<noi:GEO_POINT x="-12276.689" y="-5685.227" z="7641.449" />
+<noi:GEO_POINT x="-12671.263" y="-6316.699" z="7614.831" />
+<noi:GEO_POINT x="-13001.388" y="-7002.753" z="7584.483" />
+<noi:GEO_POINT x="-13400.954" y="-8107.749" z="7533.133" />
+<noi:GEO_POINT x="-14834.653" y="-13330.827" z="7251.232" />
+<noi:GEO_POINT x="-15127.573" y="-13932.893" z="7212.026" />
+<noi:GEO_POINT x="-15477.109" y="-14462.695" z="7174.685" />
+<noi:GEO_POINT x="-15676.711" y="-14696.722" z="7156.88" />
+<noi:GEO_POINT x="-15894.791" y="-14908.153" z="7139.741" />
+<noi:GEO_POINT x="-16132.791" y="-15095.478" z="7123.335" />
+<noi:GEO_POINT x="-16392.151" y="-15257.187" z="7107.728" />
+<noi:GEO_POINT x="-16674.312" y="-15391.769" z="7092.987" />
+<noi:GEO_POINT x="-16980.717" y="-15497.715" z="7079.179" />
+<noi:GEO_POINT x="-17312.806" y="-15573.514" z="7066.369" />
+<noi:GEO_POINT x="-17672.02" y="-15617.657" z="7054.625" />
+<noi:GEO_POINT x="-18059.801" y="-15628.634" z="7044.013" />
+<noi:GEO_POINT x="-18926.828" y="-15545.047" z="7026.453" />
+<noi:GEO_POINT x="-19925.417" y="-15310.672" z="7014.22" />
+<noi:GEO_POINT x="-20477.65" y="-15133.165" z="7010.268" />
+<noi:GEO_POINT x="-21695.201" y="-14649.959" z="7007.027" />
+<noi:GEO_POINT x="-22917.153" y="-14032.219" z="6984.12" />
+<noi:GEO_POINT x="-23994.42" y="-13329.424" z="6917.908" />
+<noi:GEO_POINT x="-24931.586" y="-12552.152" z="6812.158" />
+<noi:GEO_POINT x="-25733.232" y="-11710.979" z="6670.634" />
+<noi:GEO_POINT x="-26403.943" y="-10816.485" z="6497.103" />
+<noi:GEO_POINT x="-26948.302" y="-9879.246" z="6295.33" />
+<noi:GEO_POINT x="-27370.892" y="-8909.84" z="6069.081" />
+<noi:GEO_POINT x="-27676.296" y="-7918.845" z="5822.121" />
+<noi:GEO_POINT x="-27869.097" y="-6916.839" z="5558.216" />
+<noi:GEO_POINT x="-27953.879" y="-5914.398" z="5281.131" />
+<noi:GEO_POINT x="-27935.225" y="-4922.102" z="4994.632" />
+<noi:GEO_POINT x="-27817.719" y="-3950.526" z="4702.485" />
+<noi:GEO_POINT x="-27605.942" y="-3010.25" z="4408.455" />
+<noi:GEO_POINT x="-27304.479" y="-2111.851" z="4116.308" />
+<noi:GEO_POINT x="-26917.913" y="-1265.906" z="3829.809" />
+<noi:GEO_POINT x="-26450.827" y="-482.994" z="3552.725" />
+<noi:GEO_POINT x="-25907.805" y="226.309" z="3288.819" />
+<noi:GEO_POINT x="-25293.429" y="851.425" z="3041.859" />
+<noi:GEO_POINT x="-24612.282" y="1381.776" z="2815.61" />
+<noi:GEO_POINT x="-23868.949" y="1806.784" z="2613.837" />
+<noi:GEO_POINT x="-23068.012" y="2115.871" z="2440.306" />
+<noi:GEO_POINT x="-22214.055" y="2298.461" z="2298.783" />
+<noi:GEO_POINT x="-21311.66" y="2343.974" z="2193.032" />
+<noi:GEO_POINT x="-20365.411" y="2241.835" z="2126.821" />
+<noi:GEO_POINT x="-19379.891" y="1981.464" z="2103.913" />
+<noi:GEO_POINT x="-18616.439" y="1689.058" z="2131.437" />
+<noi:GEO_POINT x="-17885.059" y="1347.889" z="2210.09" />
+<noi:GEO_POINT x="-16840.49" y="752.703" z="2411.076" />
+<noi:GEO_POINT x="-15848.447" y="68.372" z="2694.035" />
+<noi:GEO_POINT x="-14587.066" y="-961.405" z="3164.533" />
+<noi:GEO_POINT x="-10650.265" y="-4897.512" z="4888.096" />
+<noi:GEO_POINT x="-9058.353" y="-6500.532" z="5387.694" />
+<noi:GEO_POINT x="-7696.116" y="-7758.254" z="5625.049" />
+<noi:GEO_POINT x="-6604.364" y="-8667.941" z="5677.513" />
+<noi:GEO_POINT x="-5439.456" y="-9535.107" z="5600.317" />
+<noi:GEO_POINT x="-4189.609" y="-10347.41" z="5373.62" />
+<noi:GEO_POINT x="-3303.371" y="-10852.37" z="5129.634" />
+<noi:GEO_POINT x="-1885.776" y="-11545.803" z="4609.678" />
+<noi:GEO_POINT x="2527.792" y="-13422.03" z="2397.201" />
+<noi:GEO_POINT x="3472.93" y="-13701.712" z="2004.598" />
+<noi:GEO_POINT x="3954.538" y="-13800.013" z="1842.865" />
+<noi:GEO_POINT x="4174.169" y="-13828.746" z="1783.325" />
+<noi:GEO_POINT x="4377.54" y="-13842.376" z="1739.746" />
+<noi:GEO_POINT x="6701.557" y="-13882.25" z="1413.686" />
+<noi:GEO_POINT x="7876.97" y="-13905.064" z="1362.815" />
+<noi:GEO_POINT x="8666.891" y="-13916.688" z="1402.268" />
+<noi:GEO_POINT x="9380.317" y="-13919.873" z="1506.255" />
+<noi:GEO_POINT x="9953.269" y="-13913.753" z="1643.56" />
+<noi:GEO_POINT x="10602.781" y="-13893.798" z="1856.232" />
+<noi:GEO_POINT x="10677.709" y="-13886.417" z="1885.112" />
+<noi:GEO_POINT x="10753.711" y="-13870.846" z="1916.713" />
+<noi:GEO_POINT x="10908.567" y="-13816.41" z="1987.594" />
+<noi:GEO_POINT x="11066.601" y="-13733.039" z="2067.908" />
+<noi:GEO_POINT x="11227.066" y="-13623.283" z="2156.688" />
+<noi:GEO_POINT x="11470.686" y="-13414.757" z="2303.619" />
+<noi:GEO_POINT x="11797.045" y="-13068.177" z="2520.136" />
+<noi:GEO_POINT x="12277.722" y="-12442.866" z="2873.363" />
+<noi:GEO_POINT x="13253.321" y="-10848.764" z="3694.987" />
+<noi:GEO_POINT x="13834.753" y="-9739.873" z="4264.652" />
+<noi:GEO_POINT x="14086.729" y="-9320.88" z="4529.964" />
+<noi:GEO_POINT x="14254.571" y="-9102.243" z="4678.407" />
+<noi:GEO_POINT x="14423.04" y="-8928.6" z="4805.914" />
+<noi:GEO_POINT x="14592.77" y="-8796.903" z="4914.037" />
+<noi:GEO_POINT x="14764.395" y="-8704.103" z="5004.326" />
+<noi:GEO_POINT x="14851.117" y="-8671.337" z="5043.268" />
+<noi:GEO_POINT x="14938.55" y="-8647.151" z="5078.334" />
+<noi:GEO_POINT x="15026.775" y="-8631.165" z="5109.717" />
+<noi:GEO_POINT x="15115.869" y="-8622.998" z="5137.611" />
+<noi:GEO_POINT x="15296.986" y="-8628.594" z="5183.708" />
+<noi:GEO_POINT x="15482.536" y="-8660.89" z="5218.178" />
+<noi:GEO_POINT x="15673.153" y="-8716.839" z="5242.571" />
+<noi:GEO_POINT x="15969.967" y="-8838.438" z="5263.659" />
+<noi:GEO_POINT x="16498.976" y="-9116.165" z="5270.398" />
+<noi:GEO_POINT x="17857.998" y="-9845.02" z="5268.301" />
+<noi:GEO_POINT x="18434.592" y="-10074.009" z="5300.551" />
+<noi:GEO_POINT x="18900.874" y="-10209.122" z="5348.51" />
+<noi:GEO_POINT x="19398.537" y="-10301.405" z="5422.66" />
+<noi:GEO_POINT x="19649.661" y="-10315.681" z="5471.803" />
+<noi:GEO_POINT x="19913.217" y="-10295.405" z="5533.88" />
+<noi:GEO_POINT x="20187.763" y="-10242.12" z="5607.8" />
+<noi:GEO_POINT x="20471.854" y="-10157.368" z="5692.475" />
+<noi:GEO_POINT x="21062.9" y="-9899.629" z="5889.73" />
+<noi:GEO_POINT x="21674.81" y="-9534.523" z="6116.931" />
+<noi:GEO_POINT x="22606.536" y="-8812.533" z="6494.815" />
+<noi:GEO_POINT x="23520.256" y="-7918.351" z="6891.052" />
+<noi:GEO_POINT x="24377.002" y="-6893.608" z="7276.23" />
+<noi:GEO_POINT x="25137.805" y="-5779.934" z="7620.934" />
+<noi:GEO_POINT x="25763.695" y="-4618.959" z="7895.751" />
+<noi:GEO_POINT x="26086.76" y="-3839.257" z="8025.611" />
+<noi:GEO_POINT x="26320.998" y="-3069.369" z="8102.621" />
+<noi:GEO_POINT x="26454.862" y="-2321.631" z="8118.068" />
+<noi:GEO_POINT x="26480.546" y="-1959.922" z="8099.981" />
+<noi:GEO_POINT x="26476.807" y="-1608.377" z="8063.235" />
+<noi:GEO_POINT x="26442.201" y="-1268.537" z="8006.74" />
+<noi:GEO_POINT x="26375.285" y="-941.944" z="7929.407" />
+<noi:GEO_POINT x="26274.616" y="-630.139" z="7830.147" />
+<noi:GEO_POINT x="26138.751" y="-334.665" z="7707.87" />
+<noi:GEO_POINT x="25966.246" y="-57.063" z="7561.486" />
+<noi:GEO_POINT x="25755.658" y="201.124" z="7389.907" />
+<noi:GEO_POINT x="25505.544" y="438.355" z="7192.043" />
+<noi:GEO_POINT x="25214.46" y="653.088" z="6966.805" />
+<noi:GEO_POINT x="24880.964" y="843.782" z="6713.103" />
+<noi:GEO_POINT x="24080.958" y="1146.881" z="6115.949" />
+<noi:GEO_POINT x="23093.982" y="1335.319" z="5391.868" />
+<noi:GEO_POINT x="21908.488" y="1396.759" z="4532.143" />
+<noi:GEO_POINT x="20512.93" y="1318.868" z="3528.059" />
+<noi:GEO_POINT x="18895.762" y="1089.31" z="2370.903" />
+<noi:GEO_POINT x="18520.436" y="1006.43" z="2134.802" />
+<noi:GEO_POINT x="18136.192" y="911.896" z="1951.47" />
+<noi:GEO_POINT x="17742.735" y="807.65" z="1815.866" />
+<noi:GEO_POINT x="17339.769" y="695.633" z="1722.948" />
+<noi:GEO_POINT x="16787.178" y="537.547" z="1656.747" />
+<noi:GEO_POINT x="16070.862" y="332.38" z="1649.91" />
+<noi:GEO_POINT x="14862.42" y="7.84" z="1759.405" />
+<noi:GEO_POINT x="12894.959" y="-398.446" z="2014.885" />
+<noi:GEO_POINT x="12195.059" y="-493.989" z="2076.582" />
+<noi:GEO_POINT x="11287.466" y="-574.044" z="2107.805" />
+<noi:GEO_POINT x="10278.806" y="-615.726" z="2060.706" />
+<noi:GEO_POINT x="8717.454" y="-619.162" z="1850.545" />
+<noi:GEO_POINT x="7130.19" y="-581.516" z="1580.485" />
+<noi:GEO_POINT x="5519.408" y="-559.445" z="1435.916" />
+<noi:GEO_POINT x="5421.767" y="-559.969" z="1441.137" />
+<noi:GEO_POINT x="5169.107" y="-560.533" z="1480.404" />
+<noi:GEO_POINT x="4179.616" y="-558.782" z="1737.716" />
+<noi:GEO_POINT x="2445.307" y="-547.695" z="2269.814" />
+<noi:GEO_POINT x="1097.672" y="-525.021" z="2610.397" />
+<noi:GEO_POINT x="-4707.382" y="-131.172" z="3282.95" />
+<noi:GEO_POINT x="-13168.673" y="1024.238" z="4763.784" />
+<noi:GEO_POINT x="-20161.166" y="2591.145" z="6164.979" />
+<noi:GEO_POINT x="-24094.292" y="3878.109" z="6905.041" />
+<noi:GEO_POINT x="-26257.194" y="4831.969" z="7234.445" />
+<noi:GEO_POINT x="-27589.668" y="5593.453" z="7367.494" />
+<noi:GEO_POINT x="-28323.997" y="6121.655" z="7392.703" />
+<noi:GEO_POINT x="-28925.162" y="6665.422" z="7361.393" />
+<noi:GEO_POINT x="-29173.135" y="6942.909" z="7323.009" />
+<noi:GEO_POINT x="-29384.61" y="7224.007" z="7268.655" />
+<noi:GEO_POINT x="-29558.519" y="7508.622" z="7197.716" />
+<noi:GEO_POINT x="-29693.792" y="7796.661" z="7109.58" />
+<noi:GEO_POINT x="-29789.361" y="8088.032" z="7003.633" />
+<noi:GEO_POINT x="-29844.157" y="8382.639" z="6879.26" />
+<noi:GEO_POINT x="-29857.111" y="8680.391" z="6735.85" />
+<noi:GEO_POINT x="-29838.723" y="8969.956" z="6572.428" />
+<noi:GEO_POINT x="-29795.242" y="9268.362" z="6375.839" />
+<noi:GEO_POINT x="-29720.463" y="9573.415" z="6150.038" />
+<noi:GEO_POINT x="-29608.181" y="9882.92" z="5898.979" />
+<noi:GEO_POINT x="-29452.191" y="10194.682" z="5626.615" />
+<noi:GEO_POINT x="-29246.288" y="10506.504" z="5336.901" />
+<noi:GEO_POINT x="-28984.268" y="10816.194" z="5033.79" />
+<noi:GEO_POINT x="-28659.925" y="11121.554" z="4721.237" />
+<noi:GEO_POINT x="-28267.055" y="11420.391" z="4403.196" />
+<noi:GEO_POINT x="-27799.452" y="11710.51" z="4083.62" />
+<noi:GEO_POINT x="-27250.911" y="11989.714" z="3766.464" />
+<noi:GEO_POINT x="-26382.897" y="12341.216" z="3354.187" />
+<noi:GEO_POINT x="-25345.256" y="12664.21" z="2962.614" />
+<noi:GEO_POINT x="-24123.279" y="12953.493" z="2601.116" />
+<noi:GEO_POINT x="-22314.179" y="13259.765" z="2205.816" />
+<noi:GEO_POINT x="-22166.39" y="13281.14" z="2186.655" />
+<noi:GEO_POINT x="-21806.09" y="13337.651" z="2180.831" />
+<noi:GEO_POINT x="-21116.188" y="13449.943" z="2246.789" />
+<noi:GEO_POINT x="-19279.875" y="13728.256" z="2604.362" />
+<noi:GEO_POINT x="-15283.926" y="14119.108" z="3647.639" />
+<noi:GEO_POINT x="-12166.649" y="14129.362" z="4511.39" />
+<noi:GEO_POINT x="-9959.772" y="13903.088" z="5099.555" />
+<noi:GEO_POINT x="-8285.168" y="13537.916" z="5510.879" />
+<noi:GEO_POINT x="-7116.82" y="13137.368" z="5766.489" />
+<noi:GEO_POINT x="-6391.991" y="12803.142" z="5905.162" />
+<noi:GEO_POINT x="-5718.101" y="12410.885" z="6014.372" />
+<noi:GEO_POINT x="-5101.738" y="11956.929" z="6090.624" />
+<noi:GEO_POINT x="-4817.188" y="11705.669" z="6115.298" />
+<noi:GEO_POINT x="-4299.468" y="11152.293" z="6135.563" />
+<noi:GEO_POINT x="-3295.749" y="10089.083" z="6123.369" />
+<noi:GEO_POINT x="-2245.794" y="9274.435" z="6088.074" />
+<noi:GEO_POINT x="-1156.746" y="8688.25" z="6031.605" />
+<noi:GEO_POINT x="-35.749" y="8310.433" z="5955.891" />
+<noi:GEO_POINT x="1110.053" y="8120.884" z="5862.86" />
+<noi:GEO_POINT x="2273.518" y="8099.508" z="5754.44" />
+<noi:GEO_POINT x="3447.5" y="8226.207" z="5632.558" />
+<noi:GEO_POINT x="4624.858" y="8480.883" z="5499.144" />
+<noi:GEO_POINT x="6381.594" y="9058.892" z="5281.617" />
+<noi:GEO_POINT x="8669.045" y="10089.918" z="4969.21" />
+<noi:GEO_POINT x="15755.415" y="13981.016" z="3821.862" />
+<noi:GEO_POINT x="16416.06" y="14203.834" z="3700.447" />
+<noi:GEO_POINT x="16713.27" y="14266.517" z="3644.693" />
+<noi:GEO_POINT x="16987.213" y="14293.366" z="3592.564" />
+<noi:GEO_POINT x="17236.996" y="14281.868" z="3544.3" />
+<noi:GEO_POINT x="17461.728" y="14229.513" z="3500.143" />
+<noi:GEO_POINT x="17660.515" y="14133.786" z="3460.332" />
+<noi:GEO_POINT x="17832.463" y="13992.178" z="3425.11" />
+<noi:GEO_POINT x="17976.68" y="13802.174" z="3394.717" />
+<noi:GEO_POINT x="18092.274" y="13561.264" z="3369.395" />
+<noi:GEO_POINT x="18178.35" y="13266.934" z="3349.383" />
+<noi:GEO_POINT x="18234.017" y="12916.674" z="3334.924" />
+<noi:GEO_POINT x="18239.078" y="12787.947" z="3329.703" />
+<noi:GEO_POINT x="18225.984" y="12585.68" z="3317.058" />
+<noi:GEO_POINT x="18154.843" y="12107.933" z="3267.669" />
+<noi:GEO_POINT x="18054.661" y="11524.762" z="3163.405" />
+<noi:GEO_POINT x="18014.467" y="11213.888" z="3078.265" />
+<noi:GEO_POINT x="18000.649" y="10986.246" z="2994.081" />
+<noi:GEO_POINT x="18005.021" y="10833.364" z="2920.759" />
+<noi:GEO_POINT x="18016.394" y="10741.932" z="2866.741" />
+<noi:GEO_POINT x="18035.433" y="10660.126" z="2808.434" />
+<noi:GEO_POINT x="18062.906" y="10589.009" z="2745.683" />
+<noi:GEO_POINT x="18099.582" y="10529.641" z="2678.336" />
+<noi:GEO_POINT x="18121.612" y="10504.693" z="2642.89" />
+<noi:GEO_POINT x="18146.232" y="10483.081" z="2606.238" />
+<noi:GEO_POINT x="18173.536" y="10464.936" z="2568.359" />
+<noi:GEO_POINT x="18203.623" y="10450.39" z="2529.235" />
+<noi:GEO_POINT x="18272.525" y="10432.629" z="2447.175" />
+<noi:GEO_POINT x="18658.656" y="10388.77" z="2051.025" />
+<noi:GEO_POINT x="19070.766" y="10355.392" z="1706.873" />
+<noi:GEO_POINT x="19507.402" y="10331.418" z="1418.048" />
+<noi:GEO_POINT x="19850.098" y="10318.96" z="1239.74" />
+<noi:GEO_POINT x="20205.158" y="10310.729" z="1095.832" />
+<noi:GEO_POINT x="20571.969" y="10306.271" z="987.727" />
+<noi:GEO_POINT x="20949.916" y="10305.13" z="916.831" />
+<noi:GEO_POINT x="21338.385" y="10306.852" z="884.549" />
+<noi:GEO_POINT x="21736.765" y="10310.982" z="892.284" />
+<noi:GEO_POINT x="22144.44" y="10317.064" z="941.442" />
+<noi:GEO_POINT x="22560.798" y="10324.643" z="1033.427" />
+<noi:GEO_POINT x="22985.224" y="10333.264" z="1169.644" />
+<noi:GEO_POINT x="23562.617" y="10345.594" z="1422.5" />
+<noi:GEO_POINT x="24003.484" y="10354.878" z="1667.388" />
+<noi:GEO_POINT x="24600.572" y="10366.439" z="2070.236" />
+<noi:GEO_POINT x="24955.018" y="10320.173" z="2378.807" />
+<noi:GEO_POINT x="25269.747" y="10171.062" z="2745.718" />
+<noi:GEO_POINT x="25545.776" y="9923.764" z="3168.2" />
+<noi:GEO_POINT x="25784.124" y="9582.94" z="3643.479" />
+<noi:GEO_POINT x="25985.808" y="9153.246" z="4168.784" />
+<noi:GEO_POINT x="26283.255" y="8045.89" z="5358.384" />
+<noi:GEO_POINT x="26446.262" y="6638.967" z="6714.827" />
+<noi:GEO_POINT x="26456.508" y="4048.425" z="9013.812" />
+<noi:GEO_POINT x="25916.744" y="-1238.974" z="13365.526" />
+<noi:GEO_POINT x="23887.627" y="-10928.302" z="20911.732" />
+<noi:GEO_POINT x="21291.712" y="-19017.167" z="27133.602" />
+<noi:GEO_POINT x="19172.245" y="-23640.695" z="30805.682" />
+<noi:GEO_POINT x="17855.542" y="-25673.585" z="32533.776" />
+<noi:GEO_POINT x="16975.945" y="-26642.354" z="33441.661" />
+<noi:GEO_POINT x="16538.662" y="-26996.813" z="33814.034" />
+<noi:GEO_POINT x="16104.412" y="-27258.445" z="34128.333" />
+<noi:GEO_POINT x="15674.215" y="-27422.59" z="34381.784" />
+<noi:GEO_POINT x="15249.088" y="-27484.589" z="34571.617" />
+<noi:GEO_POINT x="14830.048" y="-27439.783" z="34695.06" />
+<noi:GEO_POINT x="14418.114" y="-27283.513" z="34749.34" />
+<noi:GEO_POINT x="14014.303" y="-27011.122" z="34731.686" />
+<noi:GEO_POINT x="13619.634" y="-26617.948" z="34639.327" />
+<noi:GEO_POINT x="10002.528" y="-21954.417" z="33357.868" />
+<noi:GEO_POINT x="7792.841" y="-18481.184" z="32379.799" />
+<noi:GEO_POINT x="6442.38" y="-15976.161" z="31537.035" />
+<noi:GEO_POINT x="5608.573" y="-14237.779" z="30783.3" />
+<noi:GEO_POINT x="5092.145" y="-13093.986" z="30142.961" />
+<noi:GEO_POINT x="4644.155" y="-12090.928" z="29417.84" />
+<noi:GEO_POINT x="4372.437" y="-11502.01" z="28878.23" />
+<noi:GEO_POINT x="4114.517" y="-10978.04" z="28287.297" />
+<noi:GEO_POINT x="3863.748" y="-10519.978" z="27639.584" />
+<noi:GEO_POINT x="3613.482" y="-10128.784" z="26929.635" />
+<noi:GEO_POINT x="3357.071" y="-9805.419" z="26151.992" />
+<noi:GEO_POINT x="3087.868" y="-9550.841" z="25301.198" />
+<noi:GEO_POINT x="2645.538" y="-9300.05" z="23875.913" />
+<noi:GEO_POINT x="2137.032" y="-9209.429" z="22255.344" />
+<noi:GEO_POINT x="1317.31" y="-9343.355" z="19758.978" />
+<noi:GEO_POINT x="1093.212" y="-9441.795" z="19105.988" />
+<noi:GEO_POINT x="878.883" y="-9594.694" z="18496.616" />
+<noi:GEO_POINT x="674.106" y="-9799.725" z="17929.609" />
+<noi:GEO_POINT x="478.665" y="-10054.56" z="17403.711" />
+<noi:GEO_POINT x="292.344" y="-10356.871" z="16917.668" />
+<noi:GEO_POINT x="114.926" y="-10704.329" z="16470.225" />
+<noi:GEO_POINT x="-53.803" y="-11094.608" z="16060.127" />
+<noi:GEO_POINT x="-214.062" y="-11525.379" z="15686.12" />
+<noi:GEO_POINT x="-510.029" y="-12499.088" z="15041.357" />
+<noi:GEO_POINT x="-774.703" y="-13606.832" z="14525.898" />
+<noi:GEO_POINT x="-1009.815" y="-14829.988" z="14129.706" />
+<noi:GEO_POINT x="-1217.093" y="-16149.935" z="13842.741" />
+<noi:GEO_POINT x="-1479.602" y="-18270.599" z="13595.137" />
+<noi:GEO_POINT x="-1748.333" y="-21263.105" z="13553.605" />
+<noi:GEO_POINT x="-1973.069" y="-25059.335" z="13852.593" />
+<noi:GEO_POINT x="-2159.45" y="-32262.829" z="15146.648" />
+<noi:GEO_POINT x="-2157.65" y="-35352.517" z="15949.136" />
+</noi:GEO_POINT_LIST_3D>
+<noi:GEO_EDGE_LIST>
+<noi:GEO_EDGE e1="1" e2="2" />
+<noi:GEO_EDGE e1="2" e2="3" />
+<noi:GEO_EDGE e1="3" e2="4" />
+<noi:GEO_EDGE e1="4" e2="5" />
+<noi:GEO_EDGE e1="5" e2="6" />
+<noi:GEO_EDGE e1="6" e2="7" />
+<noi:GEO_EDGE e1="7" e2="8" />
+<noi:GEO_EDGE e1="8" e2="9" />
+<noi:GEO_EDGE e1="9" e2="10" />
+<noi:GEO_EDGE e1="10" e2="11" />
+<noi:GEO_EDGE e1="11" e2="12" />
+<noi:GEO_EDGE e1="12" e2="13" />
+<noi:GEO_EDGE e1="13" e2="14" />
+<noi:GEO_EDGE e1="14" e2="15" />
+<noi:GEO_EDGE e1="15" e2="16" />
+<noi:GEO_EDGE e1="16" e2="17" />
+<noi:GEO_EDGE e1="17" e2="18" />
+<noi:GEO_EDGE e1="18" e2="19" />
+<noi:GEO_EDGE e1="19" e2="20" />
+<noi:GEO_EDGE e1="20" e2="21" />
+<noi:GEO_EDGE e1="21" e2="22" />
+<noi:GEO_EDGE e1="22" e2="23" />
+<noi:GEO_EDGE e1="23" e2="24" />
+<noi:GEO_EDGE e1="24" e2="25" />
+<noi:GEO_EDGE e1="25" e2="26" />
+<noi:GEO_EDGE e1="26" e2="27" />
+<noi:GEO_EDGE e1="27" e2="28" />
+<noi:GEO_EDGE e1="28" e2="29" />
+<noi:GEO_EDGE e1="29" e2="30" />
+<noi:GEO_EDGE e1="30" e2="31" />
+<noi:GEO_EDGE e1="31" e2="32" />
+<noi:GEO_EDGE e1="32" e2="33" />
+<noi:GEO_EDGE e1="33" e2="34" />
+<noi:GEO_EDGE e1="34" e2="35" />
+<noi:GEO_EDGE e1="35" e2="36" />
+<noi:GEO_EDGE e1="36" e2="37" />
+<noi:GEO_EDGE e1="37" e2="38" />
+<noi:GEO_EDGE e1="38" e2="39" />
+<noi:GEO_EDGE e1="39" e2="40" />
+<noi:GEO_EDGE e1="40" e2="41" />
+<noi:GEO_EDGE e1="41" e2="42" />
+<noi:GEO_EDGE e1="42" e2="43" />
+<noi:GEO_EDGE e1="43" e2="44" />
+<noi:GEO_EDGE e1="44" e2="45" />
+<noi:GEO_EDGE e1="45" e2="46" />
+<noi:GEO_EDGE e1="46" e2="47" />
+<noi:GEO_EDGE e1="47" e2="48" />
+<noi:GEO_EDGE e1="48" e2="49" />
+<noi:GEO_EDGE e1="49" e2="50" />
+<noi:GEO_EDGE e1="50" e2="51" />
+<noi:GEO_EDGE e1="51" e2="52" />
+<noi:GEO_EDGE e1="52" e2="53" />
+<noi:GEO_EDGE e1="53" e2="54" />
+<noi:GEO_EDGE e1="54" e2="55" />
+<noi:GEO_EDGE e1="55" e2="56" />
+<noi:GEO_EDGE e1="56" e2="57" />
+<noi:GEO_EDGE e1="57" e2="58" />
+<noi:GEO_EDGE e1="58" e2="59" />
+<noi:GEO_EDGE e1="59" e2="60" />
+<noi:GEO_EDGE e1="60" e2="61" />
+<noi:GEO_EDGE e1="61" e2="62" />
+<noi:GEO_EDGE e1="62" e2="63" />
+<noi:GEO_EDGE e1="63" e2="64" />
+<noi:GEO_EDGE e1="64" e2="65" />
+<noi:GEO_EDGE e1="65" e2="66" />
+<noi:GEO_EDGE e1="66" e2="67" />
+<noi:GEO_EDGE e1="67" e2="68" />
+<noi:GEO_EDGE e1="68" e2="69" />
+<noi:GEO_EDGE e1="69" e2="70" />
+<noi:GEO_EDGE e1="70" e2="71" />
+<noi:GEO_EDGE e1="71" e2="72" />
+<noi:GEO_EDGE e1="72" e2="73" />
+<noi:GEO_EDGE e1="73" e2="74" />
+<noi:GEO_EDGE e1="74" e2="75" />
+<noi:GEO_EDGE e1="75" e2="76" />
+<noi:GEO_EDGE e1="76" e2="77" />
+<noi:GEO_EDGE e1="77" e2="78" />
+<noi:GEO_EDGE e1="78" e2="79" />
+<noi:GEO_EDGE e1="79" e2="80" />
+<noi:GEO_EDGE e1="80" e2="81" />
+<noi:GEO_EDGE e1="81" e2="82" />
+<noi:GEO_EDGE e1="82" e2="83" />
+<noi:GEO_EDGE e1="83" e2="84" />
+<noi:GEO_EDGE e1="84" e2="85" />
+<noi:GEO_EDGE e1="85" e2="86" />
+<noi:GEO_EDGE e1="86" e2="87" />
+<noi:GEO_EDGE e1="87" e2="88" />
+<noi:GEO_EDGE e1="88" e2="89" />
+<noi:GEO_EDGE e1="89" e2="90" />
+<noi:GEO_EDGE e1="90" e2="91" />
+<noi:GEO_EDGE e1="91" e2="92" />
+<noi:GEO_EDGE e1="92" e2="93" />
+<noi:GEO_EDGE e1="93" e2="94" />
+<noi:GEO_EDGE e1="94" e2="95" />
+<noi:GEO_EDGE e1="95" e2="96" />
+<noi:GEO_EDGE e1="96" e2="97" />
+<noi:GEO_EDGE e1="97" e2="98" />
+<noi:GEO_EDGE e1="98" e2="99" />
+<noi:GEO_EDGE e1="99" e2="100" />
+<noi:GEO_EDGE e1="100" e2="101" />
+<noi:GEO_EDGE e1="101" e2="102" />
+<noi:GEO_EDGE e1="102" e2="103" />
+<noi:GEO_EDGE e1="103" e2="104" />
+<noi:GEO_EDGE e1="104" e2="105" />
+<noi:GEO_EDGE e1="105" e2="106" />
+<noi:GEO_EDGE e1="106" e2="107" />
+<noi:GEO_EDGE e1="107" e2="108" />
+<noi:GEO_EDGE e1="108" e2="109" />
+<noi:GEO_EDGE e1="109" e2="110" />
+<noi:GEO_EDGE e1="110" e2="111" />
+<noi:GEO_EDGE e1="111" e2="112" />
+<noi:GEO_EDGE e1="112" e2="113" />
+<noi:GEO_EDGE e1="113" e2="114" />
+<noi:GEO_EDGE e1="114" e2="115" />
+<noi:GEO_EDGE e1="115" e2="116" />
+<noi:GEO_EDGE e1="116" e2="117" />
+<noi:GEO_EDGE e1="117" e2="118" />
+<noi:GEO_EDGE e1="118" e2="119" />
+<noi:GEO_EDGE e1="119" e2="120" />
+<noi:GEO_EDGE e1="120" e2="121" />
+<noi:GEO_EDGE e1="121" e2="122" />
+<noi:GEO_EDGE e1="122" e2="123" />
+<noi:GEO_EDGE e1="123" e2="124" />
+<noi:GEO_EDGE e1="124" e2="125" />
+<noi:GEO_EDGE e1="125" e2="126" />
+<noi:GEO_EDGE e1="126" e2="127" />
+<noi:GEO_EDGE e1="127" e2="128" />
+<noi:GEO_EDGE e1="128" e2="129" />
+<noi:GEO_EDGE e1="129" e2="130" />
+<noi:GEO_EDGE e1="130" e2="131" />
+<noi:GEO_EDGE e1="131" e2="132" />
+<noi:GEO_EDGE e1="132" e2="133" />
+<noi:GEO_EDGE e1="133" e2="134" />
+<noi:GEO_EDGE e1="134" e2="135" />
+<noi:GEO_EDGE e1="135" e2="136" />
+<noi:GEO_EDGE e1="136" e2="137" />
+<noi:GEO_EDGE e1="137" e2="138" />
+<noi:GEO_EDGE e1="138" e2="139" />
+<noi:GEO_EDGE e1="139" e2="140" />
+<noi:GEO_EDGE e1="140" e2="141" />
+<noi:GEO_EDGE e1="141" e2="142" />
+<noi:GEO_EDGE e1="142" e2="143" />
+<noi:GEO_EDGE e1="143" e2="144" />
+<noi:GEO_EDGE e1="144" e2="145" />
+<noi:GEO_EDGE e1="145" e2="146" />
+<noi:GEO_EDGE e1="146" e2="147" />
+<noi:GEO_EDGE e1="147" e2="148" />
+<noi:GEO_EDGE e1="148" e2="149" />
+<noi:GEO_EDGE e1="149" e2="150" />
+<noi:GEO_EDGE e1="150" e2="151" />
+<noi:GEO_EDGE e1="151" e2="152" />
+<noi:GEO_EDGE e1="152" e2="153" />
+<noi:GEO_EDGE e1="153" e2="154" />
+<noi:GEO_EDGE e1="154" e2="155" />
+<noi:GEO_EDGE e1="155" e2="156" />
+<noi:GEO_EDGE e1="156" e2="157" />
+<noi:GEO_EDGE e1="157" e2="158" />
+<noi:GEO_EDGE e1="158" e2="159" />
+<noi:GEO_EDGE e1="159" e2="160" />
+<noi:GEO_EDGE e1="160" e2="161" />
+<noi:GEO_EDGE e1="161" e2="162" />
+<noi:GEO_EDGE e1="162" e2="163" />
+<noi:GEO_EDGE e1="163" e2="164" />
+<noi:GEO_EDGE e1="164" e2="165" />
+<noi:GEO_EDGE e1="165" e2="166" />
+<noi:GEO_EDGE e1="166" e2="167" />
+<noi:GEO_EDGE e1="167" e2="168" />
+<noi:GEO_EDGE e1="168" e2="169" />
+<noi:GEO_EDGE e1="169" e2="170" />
+<noi:GEO_EDGE e1="170" e2="171" />
+<noi:GEO_EDGE e1="171" e2="172" />
+<noi:GEO_EDGE e1="172" e2="173" />
+<noi:GEO_EDGE e1="173" e2="174" />
+<noi:GEO_EDGE e1="174" e2="175" />
+<noi:GEO_EDGE e1="175" e2="176" />
+<noi:GEO_EDGE e1="176" e2="177" />
+<noi:GEO_EDGE e1="177" e2="178" />
+<noi:GEO_EDGE e1="178" e2="179" />
+<noi:GEO_EDGE e1="179" e2="180" />
+<noi:GEO_EDGE e1="180" e2="181" />
+<noi:GEO_EDGE e1="181" e2="182" />
+<noi:GEO_EDGE e1="182" e2="183" />
+<noi:GEO_EDGE e1="183" e2="184" />
+<noi:GEO_EDGE e1="184" e2="185" />
+<noi:GEO_EDGE e1="185" e2="186" />
+<noi:GEO_EDGE e1="186" e2="187" />
+<noi:GEO_EDGE e1="187" e2="188" />
+<noi:GEO_EDGE e1="188" e2="189" />
+<noi:GEO_EDGE e1="189" e2="190" />
+<noi:GEO_EDGE e1="190" e2="191" />
+<noi:GEO_EDGE e1="191" e2="192" />
+<noi:GEO_EDGE e1="192" e2="193" />
+<noi:GEO_EDGE e1="193" e2="194" />
+<noi:GEO_EDGE e1="194" e2="195" />
+<noi:GEO_EDGE e1="195" e2="196" />
+<noi:GEO_EDGE e1="196" e2="197" />
+<noi:GEO_EDGE e1="197" e2="198" />
+<noi:GEO_EDGE e1="198" e2="199" />
+<noi:GEO_EDGE e1="199" e2="200" />
+<noi:GEO_EDGE e1="200" e2="201" />
+<noi:GEO_EDGE e1="201" e2="202" />
+<noi:GEO_EDGE e1="202" e2="203" />
+<noi:GEO_EDGE e1="203" e2="204" />
+<noi:GEO_EDGE e1="204" e2="205" />
+<noi:GEO_EDGE e1="205" e2="206" />
+<noi:GEO_EDGE e1="206" e2="207" />
+<noi:GEO_EDGE e1="207" e2="208" />
+<noi:GEO_EDGE e1="208" e2="209" />
+<noi:GEO_EDGE e1="209" e2="210" />
+<noi:GEO_EDGE e1="210" e2="211" />
+<noi:GEO_EDGE e1="211" e2="212" />
+<noi:GEO_EDGE e1="212" e2="213" />
+<noi:GEO_EDGE e1="213" e2="214" />
+<noi:GEO_EDGE e1="214" e2="215" />
+<noi:GEO_EDGE e1="215" e2="216" />
+<noi:GEO_EDGE e1="216" e2="217" />
+<noi:GEO_EDGE e1="217" e2="218" />
+<noi:GEO_EDGE e1="218" e2="219" />
+<noi:GEO_EDGE e1="219" e2="220" />
+<noi:GEO_EDGE e1="220" e2="221" />
+<noi:GEO_EDGE e1="221" e2="222" />
+<noi:GEO_EDGE e1="222" e2="223" />
+<noi:GEO_EDGE e1="223" e2="224" />
+<noi:GEO_EDGE e1="224" e2="225" />
+<noi:GEO_EDGE e1="225" e2="226" />
+<noi:GEO_EDGE e1="226" e2="227" />
+<noi:GEO_EDGE e1="227" e2="228" />
+<noi:GEO_EDGE e1="228" e2="229" />
+<noi:GEO_EDGE e1="229" e2="230" />
+<noi:GEO_EDGE e1="230" e2="231" />
+<noi:GEO_EDGE e1="231" e2="232" />
+<noi:GEO_EDGE e1="232" e2="233" />
+<noi:GEO_EDGE e1="233" e2="234" />
+<noi:GEO_EDGE e1="234" e2="235" />
+<noi:GEO_EDGE e1="235" e2="236" />
+<noi:GEO_EDGE e1="236" e2="237" />
+<noi:GEO_EDGE e1="237" e2="238" />
+<noi:GEO_EDGE e1="238" e2="239" />
+<noi:GEO_EDGE e1="239" e2="240" />
+<noi:GEO_EDGE e1="240" e2="241" />
+<noi:GEO_EDGE e1="241" e2="242" />
+<noi:GEO_EDGE e1="242" e2="243" />
+<noi:GEO_EDGE e1="243" e2="244" />
+<noi:GEO_EDGE e1="244" e2="245" />
+<noi:GEO_EDGE e1="245" e2="246" />
+<noi:GEO_EDGE e1="246" e2="247" />
+<noi:GEO_EDGE e1="247" e2="248" />
+<noi:GEO_EDGE e1="248" e2="249" />
+<noi:GEO_EDGE e1="249" e2="250" />
+<noi:GEO_EDGE e1="250" e2="251" />
+<noi:GEO_EDGE e1="251" e2="252" />
+<noi:GEO_EDGE e1="252" e2="253" />
+<noi:GEO_EDGE e1="253" e2="254" />
+<noi:GEO_EDGE e1="254" e2="255" />
+<noi:GEO_EDGE e1="255" e2="256" />
+<noi:GEO_EDGE e1="256" e2="257" />
+<noi:GEO_EDGE e1="257" e2="258" />
+<noi:GEO_EDGE e1="258" e2="259" />
+<noi:GEO_EDGE e1="259" e2="260" />
+<noi:GEO_EDGE e1="260" e2="261" />
+<noi:GEO_EDGE e1="261" e2="262" />
+<noi:GEO_EDGE e1="262" e2="263" />
+<noi:GEO_EDGE e1="263" e2="264" />
+<noi:GEO_EDGE e1="264" e2="265" />
+<noi:GEO_EDGE e1="265" e2="266" />
+<noi:GEO_EDGE e1="266" e2="267" />
+<noi:GEO_EDGE e1="267" e2="268" />
+<noi:GEO_EDGE e1="268" e2="269" />
+<noi:GEO_EDGE e1="269" e2="270" />
+<noi:GEO_EDGE e1="270" e2="271" />
+<noi:GEO_EDGE e1="271" e2="272" />
+<noi:GEO_EDGE e1="272" e2="273" />
+<noi:GEO_EDGE e1="273" e2="274" />
+<noi:GEO_EDGE e1="274" e2="275" />
+<noi:GEO_EDGE e1="275" e2="276" />
+<noi:GEO_EDGE e1="276" e2="277" />
+<noi:GEO_EDGE e1="277" e2="278" />
+<noi:GEO_EDGE e1="278" e2="279" />
+<noi:GEO_EDGE e1="279" e2="280" />
+<noi:GEO_EDGE e1="280" e2="281" />
+<noi:GEO_EDGE e1="281" e2="282" />
+<noi:GEO_EDGE e1="282" e2="283" />
+<noi:GEO_EDGE e1="283" e2="284" />
+<noi:GEO_EDGE e1="284" e2="285" />
+<noi:GEO_EDGE e1="285" e2="286" />
+<noi:GEO_EDGE e1="286" e2="287" />
+<noi:GEO_EDGE e1="287" e2="288" />
+<noi:GEO_EDGE e1="288" e2="289" />
+<noi:GEO_EDGE e1="289" e2="290" />
+<noi:GEO_EDGE e1="290" e2="291" />
+<noi:GEO_EDGE e1="291" e2="292" />
+<noi:GEO_EDGE e1="292" e2="293" />
+<noi:GEO_EDGE e1="293" e2="294" />
+<noi:GEO_EDGE e1="294" e2="295" />
+<noi:GEO_EDGE e1="295" e2="296" />
+<noi:GEO_EDGE e1="296" e2="297" />
+<noi:GEO_EDGE e1="297" e2="298" />
+<noi:GEO_EDGE e1="298" e2="299" />
+<noi:GEO_EDGE e1="299" e2="300" />
+<noi:GEO_EDGE e1="300" e2="301" />
+<noi:GEO_EDGE e1="301" e2="302" />
+<noi:GEO_EDGE e1="302" e2="303" />
+<noi:GEO_EDGE e1="303" e2="304" />
+<noi:GEO_EDGE e1="304" e2="305" />
+<noi:GEO_EDGE e1="305" e2="306" />
+<noi:GEO_EDGE e1="306" e2="307" />
+<noi:GEO_EDGE e1="307" e2="308" />
+<noi:GEO_EDGE e1="308" e2="309" />
+<noi:GEO_EDGE e1="309" e2="310" />
+<noi:GEO_EDGE e1="310" e2="311" />
+<noi:GEO_EDGE e1="311" e2="312" />
+<noi:GEO_EDGE e1="312" e2="313" />
+<noi:GEO_EDGE e1="313" e2="314" />
+<noi:GEO_EDGE e1="314" e2="315" />
+<noi:GEO_EDGE e1="315" e2="316" />
+<noi:GEO_EDGE e1="316" e2="317" />
+<noi:GEO_EDGE e1="317" e2="318" />
+<noi:GEO_EDGE e1="318" e2="319" />
+<noi:GEO_EDGE e1="319" e2="320" />
+<noi:GEO_EDGE e1="320" e2="321" />
+<noi:GEO_EDGE e1="321" e2="322" />
+<noi:GEO_EDGE e1="322" e2="323" />
+<noi:GEO_EDGE e1="323" e2="324" />
+<noi:GEO_EDGE e1="324" e2="325" />
+<noi:GEO_EDGE e1="325" e2="326" />
+<noi:GEO_EDGE e1="326" e2="327" />
+<noi:GEO_EDGE e1="327" e2="328" />
+<noi:GEO_EDGE e1="328" e2="329" />
+<noi:GEO_EDGE e1="329" e2="330" />
+<noi:GEO_EDGE e1="330" e2="331" />
+<noi:GEO_EDGE e1="331" e2="332" />
+<noi:GEO_EDGE e1="332" e2="333" />
+<noi:GEO_EDGE e1="333" e2="334" />
+<noi:GEO_EDGE e1="334" e2="335" />
+<noi:GEO_EDGE e1="335" e2="336" />
+<noi:GEO_EDGE e1="336" e2="337" />
+<noi:GEO_EDGE e1="337" e2="338" />
+<noi:GEO_EDGE e1="338" e2="339" />
+<noi:GEO_EDGE e1="339" e2="340" />
+</noi:GEO_EDGE_LIST>
+</noi:GEO_POLYHEDRON3D>
+</noi:GEOMETRY>
+<noi:COMMON_STYLE alpha="0" r="125" g="125" b="125" layerId="0" strokeId="1" penId="2" colorByLayer="false" strokeByLayer="false" penByLayer="false" byLayerAllowed="false" useConstructionLineMode="false" drawOrder="15" />
+</noi:BASIS_LINE3D>
+</noi:MODEL_SECTION>
+</noi:DOCUMENT>

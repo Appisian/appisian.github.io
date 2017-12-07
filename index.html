@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ariadne">
+  <meta name="keywords" content="Ariadne, WebGL, ThreeJS, 3D, Maze, Melanie, Thanh-Binh, Hélène, Solenne">
+  <meta name="author" content="Solenne RELISIEUX, Hélène STARK, Mélanie SAMEDI, Thanh-Binh TANG">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ariadne</title>
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png" />  
+</head>
+<body>
+
+  <section id="gradient-bg">
+    <div class="sun">
+      <img src="./assets/img/logo_asterios.png" alt="Astérios" />
+    </div>
+
+    <div class="main-intro">
+      <h1>ariadne</h1>
+      <p>Plongez-vous au coeur de la Crète, survolez la scène du célèbre labyrinthe du roi Minos, vous y découvrirez l’infinité musicale du monde d’Astérios.</p>
+      <a id="start-xp" class="redirect-link" href="#">voyager</a>
+    </div>
+  </section>
+
+  <section id="end-gradient-bg">
+    <div class="end-intro">
+      <h1>ariadne</h1>
+      <p>Une expérience digitale et musicale qui vous a été proposée par Astérios spectacle.</p>
+      <a id="end-xp" class="redirect-link" href="http://www.asterios.fr/" target="_blank">découvrir</a>
+    </div>
+
+    <div class="credits-wrapper">
+      <img src="./assets/img/logo_asterios.png" alt="Asterios" />
+      <img src="./assets/img/logo_gobelins.png" alt="Gobelins"  />
+      <p>Une expérience réalisée par Solenne Relisieux, Mélanie Samedi, Hélène Starck et Thanh Binh Tang, élèves en DMII 2018 à Gobelins.</p>
+    </div>
+    
+    <div class="end-share-wrapper">
+      <button class="text-share">facebook</button>
+      <button class="text-share">twitter</button>
+    </div>
+
+    <canvas id="sun-morning" width="500" height="500"></canvas>
+
+  </section>
+
+  <section id="interaction-screen" class="hide-state">
+    <div id="scroll-indication" class="interaction-content hide">
+      <img src="./assets/img/fleche_cercle.svg" alt="fleche" />
+      <p>
+        scroll
+        <span>on utilise tes flèches</span>
+      </p>
+    </div>
+
+    <div id="click-indication" class="interaction-content hide">
+      <img src="./assets/img/interagis.svg" alt="fleche" />
+      <p>
+        interagis
+        <span>au clic sur la forme</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="artist-overlay">
+    <div class="artist-intro">
+      <h1 id="name-json"></h1>
+      <span id="song-json"></span>
+    </div>
+
+    <div class="vertical-indication scroll-indication">
+      <span>scroll</span> <img src="./assets/img/fleche_cercle.svg" alt="fleche" />
+    </div>
+
+    <div id="artist-wrapper">
+      <div id="artist-details" class="artist-details">
+        <div class="artist-details-content">
+          <h1 id="name-json2" class="artist-name"></h1>
+          <!-- <span id="description-json" class="description-artist"></span> -->
+        
+          <div class="album">
+            <div class="pink-block">
+              <span id="album-date-json" class="released-date"></span>
+              <div class="album-image">
+                <img id="album-image-json" src="#" alt="Album" />
+              </div>
+  
+              <h4 id="album-title-json" class="album-title"></h4>
+            </div>
+  
+            <div class="album-description">
+              <h2 id="id-json"></h2>
+              <p id="album-intro-json" class="album-intro"></p>
+              <p id="album-text-json" class="album-text"></p>
+            </div>
+          </div>
+  
+          <div class="concert-wrapper">
+            <h3>concert</h3>
+            <div class="concert-dates">
+              <ul id="concerts-json">
+              </ul>
+              <a class="redirect-link blue" href="#">Réservez</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="share-wrapper">
+          <div class="share-content">
+            <h3>partage</h3>
+  
+            <div class="share-btns">
+              <button class="share-btn facebook-btn">
+                <div class="svg-share-btn">
+                  <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 35.9 5" enable-background="new 0 0 35.9 5" xml:space="preserve">
+                  <g>
+                    <defs>
+                      <rect id="SVGID_1_" y="1.5" width="35.9" height="2"/>
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                      <use xlink:href="#SVGID_1_"  overflow="visible"/>
+                    </clipPath>
+                    
+                    <line clip-path="url(#SVGID_2_)" fill="none" stroke="#202C54" stroke-width="2" stroke-linecap="round" x1="1" y1="2.5" x2="34.9" y2="2.5"/>
+                  </g>
+                </svg>
+              </div>
+              <span>facebook</span>
+              </button>
+  
+              <button class="share-btn twitter-btn">
+                <div class="svg-share-btn">
+                  <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 35.9 5" enable-background="new 0 0 35.9 5" xml:space="preserve">
+                  <g>
+                    <defs>
+                      <rect id="SVGID_1_" y="1.5" width="35.9" height="2"/>
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                      <use xlink:href="#SVGID_1_"  overflow="visible"/>
+                    </clipPath>
+                    
+                    <line clip-path="url(#SVGID_2_)" fill="none" stroke="#202C54" stroke-width="2" stroke-linecap="round" x1="1" y1="2.5" x2="34.9" y2="2.5"/>
+                  </g>
+                </svg>
+              </div>
+              <span>twitter</span>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+
+      <div class="artist-wrapper-close">
+        <div class="close-btn-wrapper">
+          <button class="close-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 10">
+                <defs>
+                  <path id="a" d="M2 4h35.9v2H2z"/>
+                </defs>
+                <clipPath id="b">
+                  <use xlink:href="#a" overflow="visible"/>
+                </clipPath>
+                <path clip-path="url(#b)" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" d="M36.9 5H3"/>
+              </svg>           
+           
+                <span>fermer</span>
+            </button>
+          </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <section id="summary">
+    <ul id="summary-list">
+      <li class="list-item"><button data-spline-index="720" class="summary-btn" id="active">orelsan</button></li>
+      <li class="list-item"><button data-spline-index="1200" class="summary-btn">kery james</button></li>
+      <li class="list-item"><button data-spline-index="1800" class="summary-btn">fishback</button></li>
+      <li class="list-item"><button data-spline-index="2500" class="summary-btn">cali</button></li>
+      <li class="list-item"><button data-spline-index="4080" class="summary-btn">thomas fersen</button></li>
+      <li class="list-item"><button data-spline-index="4520" class="summary-btn">babx</button></li>
+      <li class="list-item"><button data-spline-index="4760" class="summary-btn">mademoiselle k</button></li>
+      <li class="list-item"><button data-spline-index="6080" class="summary-btn">petit biscuit</button></li>
+      <li class="list-item"><button data-spline-index="7000" class="summary-btn">stephan eicher</button></li>
+      <li class="list-item"><button data-spline-index="7500" class="summary-btn">pauline croze</button></li>
+    </ul>
+  </section>
+
+  <section id="teleportation-transition">
+  </section>
+
+  <button id="sound">sound</button>  
+
+<script type="text/javascript" src="manifest.a1576adfe98b50885b95.js"></script><script type="text/javascript" src="vendor.5f7a5e665b24e8548961.js"></script><script type="text/javascript" src="bundle.36f80c0bee848a5f875e.js"></script></body>
+</html>

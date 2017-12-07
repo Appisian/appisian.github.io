@@ -1,0 +1,64 @@
+#summary {
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  z-index: 2;
+  transform: translateX(-230px);
+  pointer-events: none;
+  
+  &:after {
+    content: '';
+    background-color: white;
+    height: 1px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+  }
+  
+  &.slide-state {
+    transition: transform 500ms ease-out;
+    transform: translateX(0);
+  }
+
+  ul#summary-list {
+    transition: top 500ms ease-out;
+    padding: 0; margin: 0;
+    width: 230px;
+    list-style: none;
+    position: absolute;
+    top: calc(50% - 10px);
+
+    li:first-child {
+        margin-top: 0px;
+    }
+
+    li {
+      padding-left: 65px;
+      margin: 30px 0;
+      position: relative;
+      pointer-events: all;
+      
+      .summary-btn {
+        font-size: 1.5rem;
+        font-family: Avenir;
+        color: white;
+        text-transform: lowercase;
+        opacity: .3;
+        transition: opacity 500ms ease-in-out;
+        &:hover {
+          opacity: 1;
+        }
+
+        &#active {
+          opacity: 1;
+        }
+
+
+      }
+    }
+
+  }
+
+}

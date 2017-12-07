@@ -1,0 +1,57 @@
+#interaction-screen {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 99;
+  background: linear-gradient(rgba(0,0,0,0), mainBlue);
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+  display: none;
+  
+  &.show-state {
+    display: block;
+  }
+
+  &.fade-state {
+    opacity: 1;
+
+    .interaction-content {
+      &.fade-slide-state {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+  }
+
+  .interaction-content {
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    left: 50%; bottom: 88px;
+    transform: translateX(-50%) translateY(10px);
+    opacity: 0;
+    transition: all 500ms ease-out;
+
+    &.hide {
+      display: none;
+    }
+
+
+    img {
+      width: 50px;
+      transform: rotate(180deg);
+    }
+
+    p {
+      color: white;
+      font-family: Lora;
+      
+      font-size: 2.0rem;
+      span {
+        display: block;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  
+}

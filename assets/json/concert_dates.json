@@ -1,0 +1,818 @@
+{
+	"artists": [
+		{
+			"name" : "orelsan",
+			"song": "Défaite de famille",
+			"image": "./assets/img/albums/1_Orelsan.jpg",
+			"description" : "Rappeur, acteur et réalisateur français.",
+			"date" : "2017",
+			"title" : "la fête est finie",
+			"intro" : "orelsan est de retour avec un nouvel album",
+			"text" : "Les remous du début de sa carrière sont maintenant loin, effacés par la maturité frappante de son parcours. Après avoir reçu le Prix Constantin pour son premier album en 2009, Orelsan est sur une pente ascendante : un deuxième album disque de platine en 2011, qui lui vaut deux Victoires de la Musique, un concept album disque d’or avec son meilleur ami Gringe en 2013 (Les Casseurs Flowteurs), puis en 2015, un film ainsi qu’un format court sur Canal +… Orel ne s’arrête plus. 2017 sera d’ailleurs probablement aussi son année…",
+			"concerts" : [
+				{
+					"date" : "2 février",
+					"location" : "Zénith, Caen (14)"
+				},
+				{
+					"date" : "6 février",
+					"location" : "Zénith, Montpellier (34)"
+				},
+				{
+					"date" : "7 février",
+					"location" : "Halle Tony Garnier, Lyon (69)"
+				},
+				{
+					"date" : "8 février",
+					"location" : "Galaxie, Amneville (57)"
+				},
+				{
+					"date" : "9 février",
+					"location" : "Arena, Geneve"
+				},
+				{
+					"date" : "10 février",
+					"location" : "Zénith, Dijon (21)"
+				},
+				{
+					"date" : "1 mars",
+					"location" : "Zénith, Strasbourg (67)"
+				},
+				{
+					"date" : "10 mars",
+					"location" : "Arena, Bordeaux (33)"
+				},
+				{
+					"date" : "11 mars",
+					"location" : "Zénith de Toulouse, Toulouse (31)"
+				},
+				{
+					"date" : "13 mars",
+					"location" : "Zénith de Lille, Lille (59)"
+				},
+				{
+					"date" : "14 mars",
+					"location" : "Zénith de Nantes, Nantes (44)"
+				},
+				{
+					"date" : "15 mars",
+					"location" : "AccorHotels Arena, Paris (75)"
+				},
+				{
+					"date" : "20 mars",
+					"location" : "Arena Loire, Angers (49)"
+				},
+				{
+					"date" : "21 mars",
+					"location" : "Le Liberté, Rennes (35)"
+				},
+				{
+					"date" : "22 mars",
+					"location" : "Zénith de Rouen, Rouen (76)"
+				},
+				{
+					"date" : "23 mars",
+					"location" : "Forest National, Bruxelles (Be)"
+				},
+				{
+					"date" : "27 mars",
+					"location" : "Zénith, Clermont (60)"
+				},
+				{
+					"date" : "28 mars",
+					"location" : "Le Dome, Marseille (13)"
+				}
+			]
+		},
+		{
+			"name" : "kery james",
+			"song": "Racailles",
+			"image": "./assets/img/albums/2_keryjames.jpg",
+			"description" : "Rappeur, écrivain, acteur…",
+			"date" : "2017",
+			"title" : "à Vif",
+			"intro" : "Afin d'inciter les jeunes à persévérer dans les études, Kery James revient",
+			"text" : "De ses débuts dans la rue avec la Mafia K’1 Fry, disques d’or et de platine, Kery James s’impose depuis près de 30 ans comme un artiste multicéphale éclectique qui « continue son combat quelle qu’en soit la forme ». Reconnu aujourd’hui comme figure de proue du rap conscient, il sort en octobre 2016 son septième album solo Mouhammad Alix qui s’accompagne d’une tournée en France, en Belgique, et en Suisse. Kery James est également monté sur les planches du prestigieux Théâtre du Rond-Point en Janvier 2017 pour défendre À Vif, sa première pièce de théâtre, jouée à guichet fermée dans toute la France. Elle sera reprise en septembre 2017 au Théâtre du Rond-Point, et sera suivie d’une nouvelle tournée à travers la France.",
+			"concerts" : [
+				{
+					"date" : "26 novembre",
+					"location" : "Festival Chorus, Boulogne-Billancourt"
+				},
+				{
+					"date" : "1 décembre",
+					"location" : "L'Atelier à Spectacle, Vernouillet (28)"
+				},
+				{
+					"date" : "6 décembre",
+					"location" : "Théâtre de Liège, Liège (Be)"
+				},
+				{
+					"date" : "7 décembre",
+					"location" : "Théâtre de Liège, Liège (Be)"
+				},
+				{
+					"date" : "8 décembre",
+					"location" : "Théâtre de Gennevilliers, GENNEVILLIERS"
+				},
+				{
+					"date" : "10 décembre",
+					"location" : "Centre Culturel Sidney Bechet, Grigny"
+				},
+				{
+					"date" : "12 décembre",
+					"location" : "Salle Barbara, Le Blanc Mesnil (93)"
+				},
+				{
+					"date" : "15 décembre",
+					"location" : "Théâtre d'Arles, Arles (13)"
+				},
+				{
+					"date" : "16 décembre",
+					"location" : "Théâtre d'Arles, Arles (13)"
+				},
+				{
+					"date" : "19 décembre",
+					"location" : "Théâtre Victor Hugo, Bagneux (92)"
+				},
+				{
+					"date" : "20 décembre",
+					"location" : "Espace Jacques Prévert, Aulnay-sous-Bois (93)"
+				},
+				{
+					"date" : "21 décembre",
+					"location" : "La Faiencerie, Creil (60)"
+				},
+				{
+					"date" : "9 janvier",
+					"location" : "Théâtre Municipal de Coutances, Coutances (50)"
+				},
+				{
+					"date" : "10 janvier",
+					"location" : "Centre Culturel Le Figuier Blanc, Argenteuil"
+				},
+				{
+					"date" : "11 janvier",
+					"location" : "Espace Culturel André Malraux, Kremlin Bicêtre (94)"
+				},
+				{
+					"date" : "12 janvier",
+					"location" : "Théâtre Georges Simenon, Rosny-Sous-Bois (93)"
+				},
+				{
+					"date" : "13 janvier",
+					"location" : "L'Orange Bleue, Eaubonne (95)"
+				},
+				{
+					"date" : "16 janvier",
+					"location" : "Quai des Arts de Pornichet, Pornichet (44)"
+				},
+				{
+					"date" : "17 janvier",
+					"location" : "Théâtre Roger Barat, Herblay (78)"
+				},
+				{
+					"date" : "17 janvier",
+					"location" : "Théâtre Roger Barat, Herblay (95)"
+				},
+				{
+					"date" : "18 janvier",
+					"location" : "Salle des Fêtes de Montargis, Montargis (45)"
+				},
+				{
+					"date" : "19 janvier",
+					"location" : "Théâtre SQY, Saint-Quentin en Yvelines (78)"
+				},
+				{
+					"date" : "20 janvier",
+					"location" : "Théâtre SQY, Saint-Quentin en Yvelines (78)"
+				},
+				{
+					"date" : "22 janvier",
+					"location" : "Théâtre National de Bretagne, Rennes (35)"
+				},
+				{
+					"date" : "23 janvier",
+					"location" : "Théâtre National de Bretagne, Rennes (35)"
+				},
+				{
+					"date" : "24 janvier",
+					"location" : "Théâtre National de Bretagne, Rennes (35)"
+				},
+				{
+					"date" : "25 janvier",
+					"location" : "Théâtre National de Bretagne, Rennes (35)"
+				},
+				{
+					"date" : "26 janvier",
+					"location" : "Théâtre National de Bretagne, Rennes (35)"
+				},
+				{
+					"date" : "27 janvier",
+					"location" : "Théâtre National de Bretagne, Rennes (35)"
+				},
+				{
+					"date" : "1 février",
+					"location" : "Le Firmament, Firminy (42)"
+				},
+				{
+					"date" : "2 février",
+					"location" : "Théâtre de Vénissieux, Vénissieux (69)"
+				},
+				{
+					"date" : "3 février",
+					"location" : "Quai des Arts, Rumilly (74)"
+				},
+				{
+					"date" : "8 février",
+					"location" : "Le Carreau, Forbach (57)"
+				},
+				{
+					"date" : "9 février",
+					"location" : "Filature, Mulhouse (68)"
+				},
+				{
+					"date" : "10 février",
+					"location" : "L'ARC - Grand Théâtre, Le Creusot (71)"
+				},
+				{
+					"date" : "13 février",
+					"location" : "Salle Albert Calus, Toulon (83)"
+				},
+				{
+					"date" : "15 février",
+					"location" : "Théâtre de Grasse, Grasse (06)"
+				},
+				{
+					"date" : "16 février",
+					"location" : "Théâtre de Grasse, Grasse (06)"
+				},
+				{
+					"date" : "17 février",
+					"location" : "Théâtre de Grasse, Grasse (06)"
+				},
+				{
+					"date" : "20 février",
+					"location" : "Palais des Arts, Vannes (56)"
+				},
+				{
+					"date" : "21 février",
+					"location" : "Le Quai, Angers (49)"
+				},
+				{
+					"date" : "22 février",
+					"location" : "Le Quai, Angers (49)"
+				},
+				{
+					"date" : "23 février",
+					"location" : "Le Quai, Angers (49)"
+				},
+				{
+					"date" : "24 février",
+					"location" : "Le Quai, Angers (49)"
+				},
+				{
+					"date" : "13 mars",
+					"location" : "MC2, Grenoble (38)"
+				},
+				{
+					"date" : "14 mars",
+					"location" : "MC2, Grenoble (38)"
+				},
+				{
+					"date" : "15 mars",
+					"location" : "MC2, Grenoble (38)"
+				},
+				{
+					"date" : "16 mars",
+					"location" : "MC2, Grenoble (38)"
+				},
+				{
+					"date" : "20 mars",
+					"location" : "Le Merlan, Marseille (13)"
+				},
+				{
+					"date" : "21 mars",
+					"location" : "Le Merlan, Marseille (13)"
+				},
+				{
+					"date" : "26 mars",
+					"location" : "Théâtre du Rond Point, Paris (75)"
+				},
+				{
+					"date" : "27 mars",
+					"location" : "Théâtre du Rond Point, Paris (75)"
+				},
+				{
+					"date" : "29 mars",
+					"location" : "Piano'Cktail, Bouguenais (44)"
+				},
+				{
+					"date" : "30 mars",
+					"location" : "espace Culturel Boris Vian, Les Ulis (91)"
+				},
+				{
+					"date" : "10 avril",
+					"location" : "Théâtre de Senart, Lieusaint (77)"
+				},
+				{
+					"date" : "11 avril",
+					"location" : "Théâtre de Senart, Lieusaint (77)"
+				},
+				{
+					"date" : "12 avril",
+					"location" : "Théâtre de Senart, Lieusaint (77)"
+				},
+				{
+					"date" : "13 avril",
+					"location" : "Théâtre de Senart, Lieusaint (77)"
+				},
+				{
+					"date" : "14 avril",
+					"location" : "Sénart Scène Nationale, Lieusaint (77)"
+				},
+				{
+					"date" : "17 avril",
+					"location" : "Salle Jacques Brel, Fontenay-sous-Bois"
+				},
+				{
+					"date" : "7 mai",
+					"location" : "Théâtre de Grasse, Grasse"
+				}
+			]
+		},
+		{
+			"name" : "fishback",
+			"song": "Un autre que moi",
+			"image": "./assets/img/albums/3_fishback.jpg",
+			"description" : "Auteure-compositrice-interprète française.",
+			"date" : "2017",
+			"title" : "a ta merci",
+			"intro" : "après avoir rempli deux dates à la cigale, Fishback est de retour",
+			"text" : "On n’avait pas vu pareil envol depuis longtemps. Lauréate des Inouïs du Printemps de Bourges et du Fair, chargée par les Transmusicales de Rennes de leur création annuelle.... Fishbach est partout, et partout elle trouble. Dans une époque où la pop s’acharne à être sage et droite, elle ose le bizarre, la diagonale, la torsion, mais sans jamais perdre de vue les évidences de la séduction mélodique ou la clarté des sentiments. Révélée il y a tout juste un an avec l’intense single « Mortel », cette jeune chanteuse impose d’emblée un chant particulier, à la fois surprenant et familier. En 2017, la jeune ardennaise sort son premier album À Ta Merci et part en tournée pour la première fois entourée de musiciens, après une année de concerts en solo.",
+			"concerts" : [
+				{
+					"date" : "30 novembre",
+					"location" : "Le Métronum, TOULOUSE (31)"
+				},
+				{
+					"date" : "1 décembre",
+					"location" : "Le Rocksane, BERGERAC (24)"
+				},
+				{
+					"date" : "2 décembre",
+					"location" : "Le Florida, AGEN (47)"
+				},
+				{
+					"date" : "14 décembre",
+					"location" : "La Soufflerie, REZÉ (44)"
+				},
+				{
+					"date" : "15 décembre",
+					"location" : "La Nef, ANGOULEME (16)"
+				},
+				{
+					"date" : "16 décembre",
+					"location" : "La Sall'In, CABOURG (14)"
+				},
+				{
+					"date" : "20 décembre",
+					"location" : "Théâtre Communal, LA LOUVIERE (BE)"
+				},
+				{
+					"date" : "21 décembre",
+					"location" : "Théâtre du Garde Chasse, LES LILAS (93)"
+				},
+				{
+					"date" : "12 janvier",
+					"location" : "L'Atelier à Spectacle, VERNOUILLET (28)"
+				},
+				{
+					"date" : "13 janvier",
+					"location" : "Grand Théâtre-Scène Nationale, Mâcon (71)"
+				},
+				{
+					"date" : "16 janvier",
+					"location" : "Maison de la Culture de Nevers, Nevers (58)"
+				},
+				{
+					"date" : "18 janvier",
+					"location" : "Espace Diamant, Ajaccio (20)"
+				},
+				{
+					"date" : "19 janvier",
+					"location" : "Théâtre Municipal, Bastia (20)"
+				},
+				{
+					"date" : "25 janvier",
+					"location" : "Théâtre Gallia, Saintes (17)"
+				},
+				{
+					"date" : "26 janvier",
+					"location" : "Le Médiator, Perpignan (66)"
+				},
+				{
+					"date" : "27 janvier",
+					"location" : "L'Usine, Istres (13)"
+				},
+				{
+					"date" : "1 février",
+					"location" : "Les Docks, Lausanne"
+				},
+				{
+					"date" : "2 février",
+					"location" : "Salle Jacques Brel, Pantin (93)"
+				},
+				{
+					"date" : "3 février",
+					"location" : "Centre Culturel Gérard Philippe, Calais (62)"
+				},
+				{
+					"date" : "8 février",
+					"location" : "Centre Culturel Paul B, Massy (91)"
+				},
+				{
+					"date" : "10 février",
+					"location" : "CAC, Concarneau (29)"
+				}
+			]
+		},
+		{
+			"name" : "cali",
+			"song": "Les choses défendues",
+			"image": "./assets/img/albums/4_cali.jpg",
+			"description" : "Auteur-compositeur-interprète",
+			"date" : "2017",
+			"title" : "les Choses Défendues ",
+			"intro" : "“Je ne peux pas pleurer pour ça” est le nouveau titre issu du nouvel album de cali",
+			"text" : "Depuis 20 ans Cali se balade entre chanson et rock, avec des prises de positions humaines et politiques affirmées. Le chanteur catalan partage son dernier album Les Choses Défendues dans une formule seul en scène débordante d’émotions et de générosité, avant de reprendre la route des festivals avec ses musiciens à partir de l’été 2017.",
+			"concerts" : [
+			{
+					"date" : "26 novembre",
+					"location" : "l'Étage, RENNES (35)"
+				},
+				{
+					"date" : "28 novembre",
+					"location" : "Rocher de Palmer, CENON (33)"
+				},
+				{
+					"date" : "29 novembre",
+					"location" : "Les Bourdaines, SEIGNOSSE (45)"
+				},
+				{
+					"date" : "30 novembre",
+					"location" : "Salle Alizé, MURET (31)"
+				},
+				{
+					"date" : "1 décembre",
+					"location" : "L'Usine, ISTRES (13)"
+				},
+				{
+					"date" : "12 décembre",
+					"location" : "L'Alhambra, Genève"
+				},
+				{
+					"date" : "19 janvier",
+					"location" : "Espace Culturel Victor Jara, Soignies"
+				},
+				{
+					"date" : "20 janvier",
+					"location" : "Centre Culturel de Chênée, Chênée (Be)"
+				},
+				{
+					"date" : "27 janvier",
+					"location" : "Théâtre Le Comoedia, Marmande (47)"
+				},
+				{
+					"date" : "28 janvier",
+					"location" : "Dôme de Gascogne du CIRC, Auch (32)"
+				},
+				{
+					"date" : "2 février",
+					"location" : "Juliobona, Lillebonne (76)"
+				},
+				{
+					"date" : "3 février",
+					"location" : "L'Atmosphère, Rethel (08)"
+				},
+				{
+					"date" : "6 février",
+					"location" : "Salle Georges Fontaine, St Paul Trois Châteaux"
+				},
+				{
+					"date" : "7 février",
+					"location" : "Théâtre de Châtel, Châtel-Guyon (63)"
+				},
+				{
+					"date" : "8 février",
+					"location" : "Palais d'Auron, Bourges (18)"
+				},
+				{
+					"date" : "9 février",
+					"location" : "Centre Culturel Théo Argence, Saint-Priest (69)"
+				},
+				{
+					"date" : "10 février",
+					"location" : "La Cigalière, Sérignan (34)"
+				},
+				{
+					"date" : "15 février",
+					"location" : "Théâtre de Rutebeuf, Clichy-La-Garennes (92)"
+				},
+				{
+					"date" : "16 février",
+					"location" : "Théâtre Philippe Noiret, Doué-La-Fontaine"
+				},
+				{
+					"date" : "18 février",
+					"location" : "Les Cigales, Luxey (40)"
+				}
+			]
+		},
+		{
+			"name" : "thomas fersen",
+			"song": "Encore cassé",
+			"image": "./assets/img/albums/5_thomasfersen.jpg",
+			"description" : "Auteur-compositeur-interprète",
+			"date" : "2016",
+			"title" : "un coup de queue<br /> de vache",
+			"intro" : "Conteur des champs, mélodiste des villes, en 25 ans de carrière",
+			"text" : "Thomas Fersen a pris le temps de bâtir une œuvre originale et personnelle qui occupe une place à part dans la chanson française. Au cours de ces dernières années, il a multiplié les expériences scéniques, en collaborant avec Rolland Auzet pour une version poétique et inattendue de  l’Histoire du soldat, avec le groupe Ginger Accident, puis dans un seul en scène jubilatoire ponctué de monologues en vers de son cru, entre conte et fable, farce et poème. Thomas Fersen excelle dans ce registre intimiste placé entre concert et one man show. Le cadre idéal pour exprimer son humour, sa nonchalance et ses réparties. En 2017, le conteur-chanteur propose un nouveau spectacle autour de son dixième album \"Un coup de queue de vache\", dans deux versions, seul ou accompagné d’un quintette à cordes original (arrangements de Joseph Racaille). Poète, narrateur, musicien, Thomas Fersen bat les cartes et élève son non-conformisme au rang d'atout majeur.",
+			"concerts" : [
+				{
+					"date" : "30 novembre",
+					"location" : "Cité des Congrès, Nantes (44)"
+				},
+				{
+					"date" : "20 janvier",
+					"location" : "Théâtre Quartier Libre, Ancenis (44)"
+				}
+			]
+		},
+		{
+			"name" : "Babx",
+			"song" : "Omaya, Pt. 3",
+			"image" : "./assets/img/albums/6_babx.jpg",
+			"description" : "Auteur-compositeur-interprète",
+			"date" : "2016",
+			"title" : "ascensions",
+			"intro" : "Musicien depuis sa plus tendre enfance, David Babin, alias Babx, apprivoise le piano dès l’âge<br /> de 5 ans",
+			"text" : "Son premier album sorti en 2006 fait l’unanimité grâce à son style hétéroclite et sa capacité à apporter un nouveau souffle à la chanson française. Depuis, il a collaboré avec de nombreux artistes, parmi lesquels figurent Camélia Jordana, Thomas de Pourquery ou encore Grand Corps Malade, tout en trouvant le temps de sortir deux albums en 2009 et en 2013. En 2014, il crée son propre label, BisonBison , qui lui permet de développer une nouvelle facette de son travail avec des projets singuliers comme  Cristal Automatique en 2015, dans lequel il met en musique des poèmes de Baudelaire ou de Kerouac.",
+			"concerts" : [
+				
+				{
+					"date" : "27 novembre",
+					"location" : "La Cigale, Paris (75)"
+				},
+
+				{
+					"date" : "20 janvier",
+					"location" : "Théâtre Antoine Vitez, Ivry-sur-Seine (94)"
+				},
+
+				{
+					"date" : "1 février",
+					"location" : "Espace culturel François Mitterand, Canteleu (76)"
+				},
+
+				{
+					"date" : "16 mars",
+					"location" : "Le Carré Blanc, Tinqueux (51)"
+				}
+			]
+		},
+		{
+			"name" : "mademoiselleK",
+			"song": "On s'est laissé",
+			"image": "./assets/img/albums/7_MademoiselleK.jpg",
+			"description" : "Groupe de rock",
+			"date" : "2017",
+			"title" : "sous les Brûlures l'Incandescence Intacte",
+			"intro" : "\"Volez chansons, volez loin et allez faire du bien à tous ceux qui le demanderont\"",
+			"text" : "C’est en 2006, à l’issue de ses études en musicologie à la Sorbonne, que Katerine Gierak se lance, avec son premier album Ça Me Vexe. Des riffs, du caractère, et du rock qui séduisent immédiatement, avec notamment le morceau éponyme, ainsi que Jalouse, dans lesquels ses influences anglo-saxonnes se ressentent fortement. Cette identité sera le fil rouge de ses quatre albums. En français, mais aussi en anglais sur son dernier venu, Hungry Dirty Baby sorti en 2015.",
+			"concerts" : [
+				{
+					"date" : "28 novembre",
+					"location" : "Ubu, Rennes (35)"
+				},
+				{
+					"date" : "29 novembre",
+					"location" : "Le Ferrailleur, Nantes (44)"
+				},
+				{
+					"date" : "30 novembre",
+					"location" : "CCM John Lennon, Limoges (87)"
+				},
+				{
+					"date" : "1 décembre",
+					"location" : "Rock School Barbey, Bordeaux (33)"
+				},
+				{
+					"date" : "2 décembre",
+					"location" : "Les Docks, Cahors (46)"
+				},
+				{
+					"date" : "5 décembre",
+					"location" : "l'Aéronef, Lille (59)"
+				},
+				{
+					"date" : "7 décembre",
+					"location" : "Big Band Café, Hérouville Saint Clair (14)"
+				},
+				{
+					"date" : "8 décembre",
+					"location" : "Le 106, Rouen (76)"
+				},
+				{
+					"date" : "9 décembre",
+					"location" : "Paul B, Massy (91)"
+				},
+				{
+					"date" : "12 décembre",
+					"location" : "Les mardi(s) du Grand Marais, Riorges (42)"
+				},
+				{
+					"date" : "14 décembre",
+					"location" : "Paloma, Nîmes (30)"
+				},
+				{
+					"date" : "16 décembre",
+					"location" : "Le Toit Rouge, Montelimar"
+				},
+				{
+					"date" : "31 janvier",
+					"location" : "Les Docks, Lausanne"
+				},
+				{
+					"date" : "19 février",
+					"location" : "Théâtre Jean Vilar, Saint-Quentin (02)"
+				}
+			]
+		},
+		{
+			"name" : "petit biscuit",
+			"song": "Beam",
+			"image": "./assets/img/albums/8_Petitbiscuit.jpg",
+			"description" : "Musicien français",
+			"date" : "2017",
+			"title" : "presence",
+			"intro" : "Multi-instrumentiste de  formation classique",
+			"text" : "Petit Biscuit a commencé à expérimenter en autodidacte la production musicale sur des logiciels de MAO dès l’âge de 11 ans. Aujourd’hui âgé de 17 ans, ce jeune prodige de l’électro a déjà à son palmarès un EP autoproduit, dont est issu le morceau Sunset Lover déjà écouté plus de 150 millions de fois sur Spotify, ainsi qu’une tournée en France, en Suisse et en Belgique. Sa carrière prend cette année une tournure encore plus internationale, avec deux tournée aux Etats-Unis au printemps puis été 2017 et 4 Zéniths en France en fin d'année.",
+			"concerts" : [
+				{
+					"date" : "27 novembre",
+					"location" : "Ancienne Belgique, Bruxelles (Be)"
+				},
+				{
+					"date" : "6 décembre",
+					"location" : "The Neptune, Seattle"
+				},
+				{
+					"date" : "11 décembre",
+					"location" : "Royale (The Venue), Boston"
+				},
+				{
+					"date" : "12 décembre",
+					"location" : "Concord Music Hall, Chicago"
+				},
+				{
+					"date" : "3 février",
+					"location" : "Métropole Arena, Bordeaux (33)"
+				}
+			]
+		},
+		{
+			"name" : "stephan eicher",
+			"song": "Déjeuner en paix",
+			"image": "./assets/img/albums/9_StephaneEicher.jpg",
+			"description" : "Auteur, chanteur et compositeur Suisse",
+			"date" : "2017",
+			"title" : "driissg jahr",
+			"intro" : "En septembre 1978, Stephan monte dans le train de nuit Berne-Paris…",
+			"text" : "En 2018, 40 ans plus tard, il est enfin rattrapé par un secret du passé, un conte de fée où il est question de séparations et de retrouvailles... une histoire de famille nombreuse, dans laquelle onze frères et leur unique sœur se demandent bien qui est ce monsieur qui les supplie de jouer encore plus vite et encore plus fort. Après avoir partagé la scène avec un orchestre d’automates, Stephan Eicher reprend la route en compagnie d'une fanfare explosive, les Traktorkestar et d'une virtuose du beat-boxing, Steff La Cheffe.",
+			"concerts" : [
+				{
+					"date" : "20 janvier",
+					"location" : "Théâtre Du Forum, Genève (CH)"
+				},
+				{
+					"date" : "27 janvier",
+					"location" : "L'Estive, Foix (09)"
+				},
+				{
+					"date" : "30 janvier",
+					"location" : "L'Équilibre, Fribourg (CH)"
+				},
+				{
+					"date" : "31 janvier",
+					"location" : "L'Équilibre, Fribourg (CH)"
+				},
+				{
+					"date" : "6 février",
+					"location" : "Salle Aristide Briand, Saint-Chamond (42)"
+				},
+				{
+					"date" : "7 février",
+					"location" : "Théâtre Mac-Nab, Vierzon (18)"
+				},
+				{
+					"date" : "8 février",
+					"location" : "Théâtre de Vélizy, Vélizy (78)"
+				},
+				{
+					"date" : "8 mars",
+					"location" : "Théâtre de Beausobre, Morges (11)"
+				},
+				{
+					"date" : "8 mars",
+					"location" : "Théâtre de Beausobre, Morges (CH)"
+				},
+				{
+					"date" : "9 mars",
+					"location" : "Théâtre Municipal, Moulin (03)"
+				},
+				{
+					"date" : "10 mars",
+					"location" : "Théâtre de Poissy, Poissy"
+				},
+				{
+					"date" : "15 mars",
+					"location" : "Le Radiant, Caluire (69)"
+				},
+				{
+					"date" : "18 mars",
+					"location" : "Festival Rock Sur Les Pistes, Chatel"
+				},
+				{
+					"date" : "20 mars",
+					"location" : "MC2, Grenoble (38)"
+				},
+				{
+					"date" : "21 mars",
+					"location" : "Train Théâtre, Portes-les-Valences (26)"
+				},
+				{
+					"date" : "22 mars",
+					"location" : "Théâtre Le Refley, Vevey (CH)"
+				},
+				{
+					"date" : "29 mars",
+					"location" : "Salle Lesage, Vannes"
+				},
+				{
+					"date" : "30 mars",
+					"location" : "Le 106, Rouen (76)"
+				},
+				{
+					"date" : "4 mai",
+					"location" : "Carré Belle Feuille, Boulogne-Billancourt"
+				},
+				{
+					"date" : "22 mai",
+					"location" : "Théâtre du Jorat, Mézières (CH)"
+				},
+				{
+					"date" : "23 mai",
+					"location" : "Théâtre du Jorat, Mézières (CH)"
+				}
+			]
+		},
+		{
+			"name" : "pauline croze",
+			"song": "Rua Madureira",
+			"image": "./assets/img/albums/10_PaulineCroze.jpg",
+			"description" : "Chanteuse française",
+			"date" : "2016",
+			"title" : "bossa nova",
+			"intro" : "Pour ce nouvel album Pauline Croze s’est entourée de Charles Souchon et de Romain Preuss",
+			"text" : "C’est après les avoir vus sur scène dans leurs univers respectifs qu’elle décide de leur confier la réalisation afin de trouver le mariage subtil entre pop, chanson et musique africaine. « Ne rien faire » est emprunt d’une forte musicalité qui laisse toutefois leurs places à des textes poétiques et sobres . Elle se produira à deux sur scène dans une formule guitare/basse, batterie et pads pour donner vie à ce nouveau répertoire.",
+			"concerts" : [
+				{
+					"date" : "30 mars",
+					"location" : "Le Galet, Pessac (33)"
+				},
+				{
+					"date" : "19 avril",
+					"location" : "La Tuilerie, Bédarieux (34)"
+				},
+				{
+					"date" : "20 avril",
+					"location" : "Espace des Arts, Le Pradet (83)"
+				},
+				{
+					"date" : "29 avril",
+					"location" : "Théâtre de l'Odéon, Lyon (69)"
+				},
+				{
+					"date" : "3 mai",
+					"location" : "Train Théâtre, Portes-les-Valences (26)"
+				}
+			]
+		}
+	] 
+}
+
+
+
+
+
+

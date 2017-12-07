@@ -1,0 +1,358 @@
+.artist-overlay {
+  position: fixed;
+  z-index: 99;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(23, 40, 87, .7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+
+  &.state-show {
+    display: flex;
+  }
+
+  &.state-fade {
+    opacity: 1;
+  }
+
+  .artist-intro {
+    font-family: Lora;
+    font-size: 1.4rem;
+    color: white;
+    opacity: 1;
+    transition: opacity 250ms ease-out;
+    pointer-events: none;
+
+    &.hide-state {
+      opacity: 0;
+    }
+  }
+
+  .vertical-indication {
+    position: absolute;
+    bottom: 107px;
+    left: 228px;
+    font-family: Lora;
+    font-size: 1.9rem;
+    color: white;
+    width: 114px;
+    transform: rotate(90deg);
+
+    span {
+      display: inline-block;
+      transform: rotate(180deg); 
+      padding: 0 0 2px 12px;      
+    } 
+
+    img {
+      vertical-align: middle;
+      max-width: 36px;
+      display: inline-block;
+      transform: rotate(-90deg);
+    }
+  } 
+
+
+  #artist-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 100%; left: 0;
+    transition: all 750ms ease-out;
+    display: flex;
+    flex-direction: row;
+    
+
+    .artist-wrapper-close {
+      width: calc(100% - 770px);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      .close-btn-wrapper {
+        position: absolute;
+        bottom: 150px;
+        display: inline-block;
+
+        &:hover {
+          g {
+            opacity: 1;
+          }  
+        }
+
+        .close-btn {
+          font-size: 1.6rem;
+          font-family: Lora;
+          color: white;
+          background-color: transparent;
+          border: none;
+          display: inline;
+          outline: 0;
+
+            svg {
+              margin-right: 5px;
+              display: inline;
+              width: 50px;
+              vertical-align: middle;
+
+              g {
+                transition: opacity 250ms ease-out;
+              }
+            }
+
+
+        }
+
+      }
+          
+    }
+  }
+
+
+  .artist-details {
+    width: 770px; height: 100%;
+    background-color: white;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    max-height: 100vh;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .artist-details-content {
+      text-align: left;
+      padding: 45px 70px;
+    }
+
+    .description-artist {
+      font-family: Lora;
+      font-size: 1.4rem;
+    }
+
+    .album {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 45px;
+
+      .pink-block {
+        height: 280px; width: 280px;
+        min-height: @height; min-width: @width;
+        background-color: rgba(237, 178, 186, 1);  
+        margin-left: 36px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .released-date {
+          position: absolute;
+          left: 40px; top: 30px;
+          display: block;
+          font-family: Lora;
+          font-size: 1.4rem;
+          color: rgb(23, 40, 87);
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 70px; height: 1px;
+            background-color: rgb(23, 40, 87);;
+            top: 50%; left: -75px;
+            transform: translateY(-50%);
+          }
+        }
+
+        .album-image {
+          width: 170px; height: 170px;
+          min-width: @width; min-height: @height;
+          border-radius: 50%;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          img {
+            height: 100%;
+          } 
+        }
+
+        .album-title {
+          position: absolute;
+          left: -32.5px; bottom: -12px;
+        }
+      }
+
+
+      .album-description {
+        // width: 283px;
+        max-width: 283px;
+
+        .album-intro {
+          font-family: Lora;
+          font-size: 1.8rem;
+          margin: 0;
+          padding: 10px 0 5px 0;
+        }
+
+        .album-text {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          font-family: Lora;
+          font-size: 1.2rem;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .concert-wrapper {
+      // width: 430px;
+
+
+      // max-width: 395px;
+      h3 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+      }
+
+      .concert-dates {
+        margin: 0 auto;
+        width: 430px;
+
+        ul {
+        column-count: 2;
+        padding: 0; margin: 0;
+        list-style: none;
+        // display: flex;
+        font-size: 1.2rem;
+        font-family: Avenir;
+        font-weight: 300;
+        // height: 530px;
+        margin-bottom: 30px;
+
+          li {
+            display: inline-block;
+            width: 100%;
+            padding: 10px 0;
+            .concert-date {
+              font-weight: 700;
+              display: block;
+              color: rgb(23, 40, 87);
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .share-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    padding-bottom: 70px;
+
+    .share-content {
+      padding: 40px 100px 40px 167px;
+      background-color: rgba(237, 178, 186, .3);
+      display: inline-block;
+      position: relative;
+
+      h3 {
+        text-align: left;
+      }
+
+      .share-btns {
+        position: absolute;
+        padding: 0;
+        bottom: -10px;
+        right: 30px;
+      }
+
+      .share-btn {
+        font-size: 1.6rem;
+        font-family: Lora;
+        color:rgb(23, 40, 87);
+        background-color: transparent;
+        border: none;
+        box-sizing: border-box;
+        outline: 0;
+
+        &:first-child {
+          margin-right: 10px; 
+        }
+
+        span {
+          padding-left: 10px;
+        }
+
+        &:hover {
+          .circle-hover {
+            opacity: 1;
+          }  
+        }
+        
+        .svg-share-btn {
+            max-width: 35px;
+            display: inline-block;
+            // transform: rotate(-90deg);
+
+          svg {
+            position: relative;
+            vertical-align: middle;
+            width: 100%;
+            g {
+              transition: opacity 250ms ease-out;
+            }
+          }
+        }
+        
+      }
+    }
+
+  }
+
+}
+
+a:visited, a:focus, a:active, a {
+    outline: 0;
+    text-transform: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.redirect-link {
+    position: relative;
+    font-size: 1.6rem;
+    font-family: Lora;
+    padding: 9px 30px 13px 30px;
+    text-transform: lowercase;
+    transition: all 200ms ease-out;
+
+    &.blue {
+      border: 1px solid rgba(23, 40, 87, .3);
+      color: rgb(23, 40, 87);
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -25%;
+        width: 45px;
+        height: 2px;
+        background-color: rgb(23, 40, 87);;
+      }
+
+      &:hover {
+        border: 1px solid rgba(23, 40, 87, 1);
+      }
+    }
+}

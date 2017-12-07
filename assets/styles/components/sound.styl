@@ -1,0 +1,38 @@
+#sound {
+  opacity: 0;
+  pointer-events: none;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  position: absolute;
+  z-index: 2;
+  bottom: 36px; right: 36px;
+  color: white;
+  padding: 0 5px;
+  transition: opacity 250ms ease-out;
+
+  &.show-state {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  &.disabled:after {
+    width: 100%;
+  }
+  
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    background-color: white;
+    top: 50%; left: 0;
+
+    height: 2px;
+    transition: width 300ms ease-out;
+    transition-delay: 100ms;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+
+}
